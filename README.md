@@ -88,6 +88,12 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 <h2 align="center"> 📖 Learning Daily 📖 </h2>
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=b3NmhxUDt-4">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=b3NmhxUDt-4&title=Climate+change+or+just+crazy+weather%3F+The+Climate+Question+%7C+BBC+World+Service&lang=en&timestamp=1777896104&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1431">
+    <img src="https://ytcards.demolab.com/?id=b3NmhxUDt-4&title=Climate+change+or+just+crazy+weather%3F+The+Climate+Question+%7C+BBC+World+Service&lang=en&timestamp=1777896104&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1431" alt="Climate change or just crazy weather? The Climate Question | BBC World Service" title="Climate change or just crazy weather? The Climate Question | BBC World Service">
+  </picture>
+</a>
 <a href="https://www.youtube.com/watch?v=yhZuHEOLqwg">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=yhZuHEOLqwg&title=Are+screens+making+it+harder+for+students+to+learn%3F+-+What+in+the+World+podcast%2C+BBC+World+Service&lang=en&timestamp=1777550509&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=714">
@@ -116,12 +122,6 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=ojNm2TxqfN4&title=Why+are+there+millions+of+empty+houses+in+Japan%3F+-+The+Global+Story+podcast%2C+BBC+World+Service&lang=en&timestamp=1731762055&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1124">
     <img src="https://ytcards.demolab.com/?id=ojNm2TxqfN4&title=Why+are+there+millions+of+empty+houses+in+Japan%3F+-+The+Global+Story+podcast%2C+BBC+World+Service&lang=en&timestamp=1731762055&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1124" alt="Why are there millions of empty houses in Japan? - The Global Story podcast, BBC World Service" title="Why are there millions of empty houses in Japan? - The Global Story podcast, BBC World Service">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=AnpA0ODt-Kc">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=AnpA0ODt-Kc&title=IELTS+reading+practice+test+2026+with+answers+general+training&lang=en&timestamp=1774628106&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=3779">
-    <img src="https://ytcards.demolab.com/?id=AnpA0ODt-Kc&title=IELTS+reading+practice+test+2026+with+answers+general+training&lang=en&timestamp=1774628106&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=3779" alt="IELTS reading practice test 2026 with answers general training" title="IELTS reading practice test 2026 with answers general training">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
