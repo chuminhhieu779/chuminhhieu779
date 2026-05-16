@@ -68,7 +68,7 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 </div>
 
 
-<h2 align="center"> 📖 Learning Daily 📖 </h2>
+<h2 align="center"> 📖 Watching 📖 </h2>
 
 <!-- BEGIN YOUTUBE-CARDS -->
 <a href="https://www.youtube.com/watch?v=WtxPV8kwW1o">
