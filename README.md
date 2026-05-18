@@ -71,6 +71,12 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 <h2 align="center"> 📖 Watching 📖 </h2>
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=MpoVwF-LRZE">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=MpoVwF-LRZE&title=How+to+Pronounce+Words+with+Syllabic-N+in+American+English+-+May+12%2C2026&lang=en&timestamp=1778612732&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=493">
+    <img src="https://ytcards.demolab.com/?id=MpoVwF-LRZE&title=How+to+Pronounce+Words+with+Syllabic-N+in+American+English+-+May+12%2C2026&lang=en&timestamp=1778612732&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=493" alt="How to Pronounce Words with Syllabic-N in American English - May 12,2026" title="How to Pronounce Words with Syllabic-N in American English - May 12,2026">
+  </picture>
+</a>
 <a href="https://www.youtube.com/watch?v=_Q3cPGepovc">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=_Q3cPGepovc&title=Nightcore+-+N%E1%BA%BFu+Em+Kh%C3%B4ng+H%E1%BA%A1nh+Ph%C3%BAc+Remix&lang=en&timestamp=1676522940&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=301">
@@ -99,12 +105,6 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1654">
     <img src="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1654" alt="The First Punic War - OverSimplified (Part 1)" title="The First Punic War - OverSimplified (Part 1)">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=QpBcAu7eFnU">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1555">
-    <img src="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1555" alt="The new medical innovations that could change everything - The Engineers, BBC World Service" title="The new medical innovations that could change everything - The Engineers, BBC World Service">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
