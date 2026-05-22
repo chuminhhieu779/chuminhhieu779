@@ -87,6 +87,12 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 <h2 align="center"> 📖 Watching 📖 </h2>
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=gJX7txp4df4">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=gJX7txp4df4&title=stay+better+or+bitter&lang=en&timestamp=1779243200&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1590">
+    <img src="https://ytcards.demolab.com/?id=gJX7txp4df4&title=stay+better+or+bitter&lang=en&timestamp=1779243200&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1590" alt="stay better or bitter" title="stay better or bitter">
+  </picture>
+</a>
 <a href="https://www.youtube.com/watch?v=MpoVwF-LRZE">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=MpoVwF-LRZE&title=How+to+Pronounce+Words+with+Syllabic-N+in+American+English+-+May+12%2C2026&lang=en&timestamp=1778612732&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=493">
@@ -115,12 +121,6 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=E0XnniP9PCk&title=Why+Chasing+Happiness+is+Pointless+%28The+Hedonic+Treadmill%29&lang=en&timestamp=1707404424&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=903">
     <img src="https://ytcards.demolab.com/?id=E0XnniP9PCk&title=Why+Chasing+Happiness+is+Pointless+%28The+Hedonic+Treadmill%29&lang=en&timestamp=1707404424&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=903" alt="Why Chasing Happiness is Pointless (The Hedonic Treadmill)" title="Why Chasing Happiness is Pointless (The Hedonic Treadmill)">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=yRmOWcWdQAo">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1654">
-    <img src="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1654" alt="The First Punic War - OverSimplified (Part 1)" title="The First Punic War - OverSimplified (Part 1)">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
