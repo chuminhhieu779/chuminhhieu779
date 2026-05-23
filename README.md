@@ -71,22 +71,10 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 <h2 align="center"> 📖 Watching 📖 </h2>
 
 <!-- BEGIN YOUTUBE-CARDS -->
-<a href="https://www.youtube.com/watch?v=gJX7txp4df4">
+<a href="https://www.youtube.com/watch?v=QKIzRmYyDf4">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=gJX7txp4df4&title=stay+better+or+bitter&lang=en&timestamp=1779243200&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1590">
-    <img src="https://ytcards.demolab.com/?id=gJX7txp4df4&title=stay+better+or+bitter&lang=en&timestamp=1779243200&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1590" alt="stay better or bitter" title="stay better or bitter">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=MpoVwF-LRZE">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=MpoVwF-LRZE&title=How+to+Pronounce+Words+with+Syllabic-N+in+American+English+-+May+12%2C2026&lang=en&timestamp=1778612732&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=493">
-    <img src="https://ytcards.demolab.com/?id=MpoVwF-LRZE&title=How+to+Pronounce+Words+with+Syllabic-N+in+American+English+-+May+12%2C2026&lang=en&timestamp=1778612732&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=493" alt="How to Pronounce Words with Syllabic-N in American English - May 12,2026" title="How to Pronounce Words with Syllabic-N in American English - May 12,2026">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=_Q3cPGepovc">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=_Q3cPGepovc&title=Nightcore+-+N%E1%BA%BFu+Em+Kh%C3%B4ng+H%E1%BA%A1nh+Ph%C3%BAc+Remix&lang=en&timestamp=1676522940&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=301">
-    <img src="https://ytcards.demolab.com/?id=_Q3cPGepovc&title=Nightcore+-+N%E1%BA%BFu+Em+Kh%C3%B4ng+H%E1%BA%A1nh+Ph%C3%BAc+Remix&lang=en&timestamp=1676522940&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=301" alt="Nightcore - Nếu Em Không Hạnh Phúc Remix" title="Nightcore - Nếu Em Không Hạnh Phúc Remix">
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=QKIzRmYyDf4&title=Jimmy+Carr+Almost+Gets+a+Guy+to+Quit+His+Job+Mid-Show+%7C+Jimmy+Carr+Crowd+Work&lang=en&timestamp=1779465601&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=661">
+    <img src="https://ytcards.demolab.com/?id=QKIzRmYyDf4&title=Jimmy+Carr+Almost+Gets+a+Guy+to+Quit+His+Job+Mid-Show+%7C+Jimmy+Carr+Crowd+Work&lang=en&timestamp=1779465601&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=661" alt="Jimmy Carr Almost Gets a Guy to Quit His Job Mid-Show | Jimmy Carr Crowd Work" title="Jimmy Carr Almost Gets a Guy to Quit His Job Mid-Show | Jimmy Carr Crowd Work">
   </picture>
 </a>
 <a href="https://www.youtube.com/watch?v=SJeWnsfif4g">
@@ -95,16 +83,28 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
     <img src="https://ytcards.demolab.com/?id=SJeWnsfif4g&title=Learn+REAL+English+Naturally+in+COLORADO%21+%28Comprehensible+Input%29&lang=en&timestamp=1778670045&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1243" alt="Learn REAL English Naturally in COLORADO! (Comprehensible Input)" title="Learn REAL English Naturally in COLORADO! (Comprehensible Input)">
   </picture>
 </a>
-<a href="https://www.youtube.com/watch?v=WtxPV8kwW1o">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=WtxPV8kwW1o&title=Never+been+this+disappointed..&lang=en&timestamp=1776947886&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1593">
-    <img src="https://ytcards.demolab.com/?id=WtxPV8kwW1o&title=Never+been+this+disappointed..&lang=en&timestamp=1776947886&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1593" alt="Never been this disappointed.." title="Never been this disappointed..">
-  </picture>
-</a>
 <a href="https://www.youtube.com/watch?v=E0XnniP9PCk">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=E0XnniP9PCk&title=Why+Chasing+Happiness+is+Pointless+%28The+Hedonic+Treadmill%29&lang=en&timestamp=1707404424&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=903">
     <img src="https://ytcards.demolab.com/?id=E0XnniP9PCk&title=Why+Chasing+Happiness+is+Pointless+%28The+Hedonic+Treadmill%29&lang=en&timestamp=1707404424&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=903" alt="Why Chasing Happiness is Pointless (The Hedonic Treadmill)" title="Why Chasing Happiness is Pointless (The Hedonic Treadmill)">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=yRmOWcWdQAo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1654">
+    <img src="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1654" alt="The First Punic War - OverSimplified (Part 1)" title="The First Punic War - OverSimplified (Part 1)">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=QpBcAu7eFnU">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1555">
+    <img src="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1555" alt="The new medical innovations that could change everything - The Engineers, BBC World Service" title="The new medical innovations that could change everything - The Engineers, BBC World Service">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=b3NmhxUDt-4">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=b3NmhxUDt-4&title=Climate+change+or+just+crazy+weather%3F+The+Climate+Question+%7C+BBC+World+Service&lang=en&timestamp=1777896104&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1431">
+    <img src="https://ytcards.demolab.com/?id=b3NmhxUDt-4&title=Climate+change+or+just+crazy+weather%3F+The+Climate+Question+%7C+BBC+World+Service&lang=en&timestamp=1777896104&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1431" alt="Climate change or just crazy weather? The Climate Question | BBC World Service" title="Climate change or just crazy weather? The Climate Question | BBC World Service">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
