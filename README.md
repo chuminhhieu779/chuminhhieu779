@@ -71,6 +71,12 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 <h2 align="center"> 📖 Watching 📖 </h2>
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=AhRPlRFiGUs">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=AhRPlRFiGUs&title=What+SpongeBob+Understands+About+Life+%28That+You+Don%E2%80%99t%29&lang=en&timestamp=1774013412&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1739">
+    <img src="https://ytcards.demolab.com/?id=AhRPlRFiGUs&title=What+SpongeBob+Understands+About+Life+%28That+You+Don%E2%80%99t%29&lang=en&timestamp=1774013412&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1739" alt="What SpongeBob Understands About Life (That You Don’t)" title="What SpongeBob Understands About Life (That You Don’t)">
+  </picture>
+</a>
 <a href="https://www.youtube.com/watch?v=QKIzRmYyDf4">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=QKIzRmYyDf4&title=Jimmy+Carr+Almost+Gets+a+Guy+to+Quit+His+Job+Mid-Show+%7C+Jimmy+Carr+Crowd+Work&lang=en&timestamp=1779465601&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=661">
@@ -99,12 +105,6 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1555">
     <img src="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1555" alt="The new medical innovations that could change everything - The Engineers, BBC World Service" title="The new medical innovations that could change everything - The Engineers, BBC World Service">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=b3NmhxUDt-4">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=b3NmhxUDt-4&title=Climate+change+or+just+crazy+weather%3F+The+Climate+Question+%7C+BBC+World+Service&lang=en&timestamp=1777896104&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1431">
-    <img src="https://ytcards.demolab.com/?id=b3NmhxUDt-4&title=Climate+change+or+just+crazy+weather%3F+The+Climate+Question+%7C+BBC+World+Service&lang=en&timestamp=1777896104&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1431" alt="Climate change or just crazy weather? The Climate Question | BBC World Service" title="Climate change or just crazy weather? The Climate Question | BBC World Service">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
