@@ -7,11 +7,13 @@
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=java,html,css,javascript,github,idea,vscode,mysql,postman,docker,spring,maven,gradle" />
-   <img src="https://cdn.simpleicons.org/dbeaver/cfcfcf" height="48" />
+    <img src="https://skillicons.dev/icons?i=java,html,css,javascript,react,typescript" />
+    <br>
+    <img src="https://skillicons.dev/icons?i=spring,github,idea,vscode,mysql,postman,docker,nginx,linux,jenkins,grafana,prometheus" />
+    <br>
+    <img src="https://cdn.simpleicons.org/swagger/85EA2D" height="48" />
+    <img src="https://cdn.simpleicons.org/dbeaver/cfcfcf" height="48" />
 </div>
-<br/>
-
 <h2 align="center">⚡ GitHub Stats ⚡</h2>
 
 <div align="center">
