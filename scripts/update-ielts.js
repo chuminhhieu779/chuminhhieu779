@@ -80,7 +80,7 @@ function rowLabel(skill, item, index) {
 }
 
 function formatSkill(skill, items) {
-  const lines = [];
+  const lines = [`*${skill.name}*`];
 
   if (items.length === 0) {
     lines.push("No data yet.");
@@ -143,11 +143,11 @@ function formatSkill(skill, items) {
 }
 
 function formatStats(skillResults) {
-  return skillResults
-    .map(({ skill, items }) =>
-      [`**${skill.name}**`, "", "```text", formatSkill(skill, items), "```"].join("\n"),
-    )
-    .join("\n\n");
+  return [
+    "```text",
+    skillResults.map(({ skill, items }) => formatSkill(skill, items)).join("\n\n"),
+    "```",
+  ].join("\n");
 }
 
 function replaceTaggedSection(readme, content) {
