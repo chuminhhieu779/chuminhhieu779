@@ -1,9 +1,9 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
 
-const BADGE_HEIGHT = 25;
-const BORDER_RADIUS = 5;
-const FONT_SIZE = 15;
+const BADGE_HEIGHT = 20;
+const BORDER_RADIUS = 4;
+const FONT_SIZE = 12;
 const LABEL_PADDING_X = 12;
 const VALUE_PADDING_X = 12;
 const LABEL_COLOR = "#2d3436";
@@ -41,7 +41,7 @@ function buildBadgeSvg(label, value) {
   const labelWidth = textWidth(label) + LABEL_PADDING_X * 2;
   const valueWidth = textWidth(value) + VALUE_PADDING_X * 2;
   const width = labelWidth + valueWidth;
-  const textY = 18;
+  const textY = 14;
   const labelTextX = labelWidth / 2;
   const valueTextX = labelWidth + valueWidth / 2;
 
