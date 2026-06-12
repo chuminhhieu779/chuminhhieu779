@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="267" height="20" viewBox="0 0 267 20" role="img" aria-label="Vocab Learned: 609 words">
+<svg xmlns="http://www.w3.org/2000/svg" width="206" height="20" viewBox="0 0 206 20" role="img" aria-label="Vocab Learned: 609 words">
   <title>Vocab Learned: 609 words</title>
   <clipPath id="badge-radius">
-    <rect width="267" height="20" rx="4" ry="4" />
+    <rect width="206" height="20" rx="4" ry="4" />
   </clipPath>
   <g clip-path="url(#badge-radius)">
-    <rect width="139" height="20" fill="#2d3436" />
-    <rect x="139" width="128" height="20" fill="#3C3489" />
+    <rect width="106" height="20" fill="#2d3436" />
+    <rect x="106" width="100" height="20" fill="#3C3489" />
   </g>
   <g fill="none" stroke="#3C3489">
-    <rect x="0.5" y="0.5" width="266" height="19" rx="3.5" ry="3.5" />
+    <rect x="0.5" y="0.5" width="205" height="19" rx="3.5" ry="3.5" />
   </g>
   <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12" font-weight="600">
-    <text x="69.5" y="14" text-anchor="middle" fill="#f1f0fe">Vocab Learned</text>
-    <text x="203" y="14" text-anchor="middle" fill="#ffffff">609 words</text>
+    <text x="53" y="14" text-anchor="middle" fill="#f1f0fe">Vocab Learned</text>
+    <text x="156" y="14" text-anchor="middle" fill="#ffffff">609 words</text>
   </g>
 </svg>

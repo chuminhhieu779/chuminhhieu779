@@ -4,8 +4,8 @@ const path = require("node:path");
 const BADGE_HEIGHT = 20;
 const BORDER_RADIUS = 4;
 const FONT_SIZE = 12;
-const LABEL_PADDING_X = 12;
-const VALUE_PADDING_X = 12;
+const LABEL_PADDING_X = 8;
+const VALUE_PADDING_X = 8;
 const LABEL_COLOR = "#2d3436";
 const VALUE_COLOR = "#3C3489";
 const LABEL_TEXT_COLOR = "#f1f0fe";
@@ -22,18 +22,18 @@ function escapeXml(value) {
 function textWidth(text) {
   return Array.from(String(text)).reduce((width, character) => {
     if (/\p{Emoji}/u.test(character)) {
-      return width + 18;
+      return width + 15;
     }
 
     if (/[A-Z0-9]/.test(character)) {
-      return width + 10;
+      return width + 8;
     }
 
     if (character === " ") {
-      return width + 5;
+      return width + 4;
     }
 
-    return width + 9;
+    return width + 7;
   }, 0);
 }
 
