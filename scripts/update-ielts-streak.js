@@ -50,12 +50,12 @@ function countActiveDays(items) {
 function badgeUrl(days) {
   const label = encodeURIComponent("🔥 IELTS Streak");
   const message = encodeURIComponent(`${days} days`);
-  return `https://img.shields.io/badge/${label}-${message}-3C3489?style=flat-square&labelColor=f1f0fe&color=3C3489`;
+  return `https://img.shields.io/badge/${label}-${message}-3C3489?style=flat-square&labelColor=2d3436&color=3C3489`;
 }
 
 function formatBadge(days) {
   return [
-    '<p align="center">',
+    '<p align="left">',
     `  <img src="${badgeUrl(days)}" alt="IELTS Streak: ${days} days" />`,
     "</p>",
   ].join("\n");
