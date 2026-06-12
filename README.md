@@ -36,12 +36,6 @@ Passage 1         275    132        9    416  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿�
               Correct  Wrong  Skipped  Total  Progress
 ──────────────────────────────────────────────────────────────────────────────────────────
 Section 1         153     97       20    270  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   56.67%
-
-✍️ Writing
-No data yet.
-
-🗣️ Speaking
-No data yet.
 ```
 <!-- YOUPASS:END -->
 
