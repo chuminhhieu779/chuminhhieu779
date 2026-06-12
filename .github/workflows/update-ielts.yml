@@ -22,7 +22,12 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Update README
+      - name: Update IELTS streak badge
+        env:
+          YOUPASS_TOKEN: ${{ secrets.YOUPASS_TOKEN }}
+        run: node scripts/update-ielts-streak.js
+
+      - name: Update IELTS progress stats
         env:
           YOUPASS_TOKEN: ${{ secrets.YOUPASS_TOKEN }}
         run: node scripts/update-ielts.js

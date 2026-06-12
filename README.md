@@ -25,6 +25,12 @@
 
 <h2 align="center"> 📚 IELTS Progress 📚 </h2>
 
+<!-- YOUPASS_STREAK:START -->
+<p align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%94%A5%20IELTS%20Streak-48%20days-3C3489?style=flat-square&labelColor=f1f0fe&color=3C3489" alt="IELTS Streak: 48 days" />
+</p>
+<!-- YOUPASS_STREAK:END -->
+
 <!-- YOUPASS:START -->
 ```text
 📖 Reading
@@ -146,8 +152,6 @@ TypeScript               1 repo              ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀�
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
-
-
 
 
 
