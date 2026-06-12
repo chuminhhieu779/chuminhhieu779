@@ -26,17 +26,13 @@
 <h2 align="center"> 📚 IELTS Progress 📚 </h2>
 
 <!-- YOUPASS:START -->
-**Reading**
-
 ```text
+*Reading*
               Correct  Wrong  Skipped  Total  Progress
 ──────────────────────────────────────────────────────────────────────────────────────────
 Passage 1         275    132        9    416  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.11%
-```
 
-**Listening**
-
-```text
+*Listening*
               Correct  Wrong  Skipped  Total  Progress
 ──────────────────────────────────────────────────────────────────────────────────────────
 Section 1         153     97       20    270  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   56.67%
