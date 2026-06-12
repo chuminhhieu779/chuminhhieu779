@@ -3,9 +3,9 @@ const path = require("node:path");
 
 const BADGE_HEIGHT = 25;
 const BORDER_RADIUS = 5;
-const FONT_SIZE = 12;
-const LABEL_PADDING_X = 10;
-const VALUE_PADDING_X = 8;
+const FONT_SIZE = 15;
+const LABEL_PADDING_X = 12;
+const VALUE_PADDING_X = 12;
 const LABEL_COLOR = "#2d3436";
 const VALUE_COLOR = "#3C3489";
 const LABEL_TEXT_COLOR = "#f1f0fe";
@@ -22,18 +22,18 @@ function escapeXml(value) {
 function textWidth(text) {
   return Array.from(String(text)).reduce((width, character) => {
     if (/\p{Emoji}/u.test(character)) {
-      return width + 15;
+      return width + 18;
     }
 
     if (/[A-Z0-9]/.test(character)) {
-      return width + 8;
+      return width + 10;
     }
 
     if (character === " ") {
-      return width + 4;
+      return width + 5;
     }
 
-    return width + 7;
+    return width + 9;
   }, 0);
 }
 
@@ -41,7 +41,7 @@ function buildBadgeSvg(label, value) {
   const labelWidth = textWidth(label) + LABEL_PADDING_X * 2;
   const valueWidth = textWidth(value) + VALUE_PADDING_X * 2;
   const width = labelWidth + valueWidth;
-  const textY = 17;
+  const textY = 18;
   const labelTextX = labelWidth / 2;
   const valueTextX = labelWidth + valueWidth / 2;
 
