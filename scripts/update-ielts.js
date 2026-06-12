@@ -9,8 +9,8 @@ const END_TAG = "<!-- YOUPASS:END -->";
 const BAR_WIDTH = 25;
 
 const SKILLS = [
-  { id: 1, name: "Reading", unit: "Passage" },
-  { id: 2, name: "Listening", unit: "Section" },
+  { id: 1, name: "Reading", icon: "📖", unit: "Passage" },
+  { id: 2, name: "Listening", icon: "🎵", unit: "Section" },
 ];
 
 function usage() {
@@ -80,7 +80,7 @@ function rowLabel(skill, item, index) {
 }
 
 function formatSkill(skill, items) {
-  const lines = [`*${skill.name}*`];
+  const lines = [`${skill.icon} ${skill.name}`];
 
   if (items.length === 0) {
     lines.push("No data yet.");
