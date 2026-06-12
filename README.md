@@ -28,10 +28,10 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="https://img.shields.io/badge/%F0%9F%94%A5%20IELTS%20Streak-48%20days-3C3489?style=flat-square&labelColor=2d3436&color=3C3489" height="25" style="border-radius: 5px;" alt="IELTS Streak: 48 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 48 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="https://img.shields.io/badge/Vocab%20Learned-609%20words-3C3489?style=flat-square&labelColor=2d3436&color=3C3489" height="25" style="border-radius: 5px;" alt="Vocab Learned: 609 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 609 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
 </p>
 <!-- YOUPASS_BADGES:END -->

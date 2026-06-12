@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="218" height="25" viewBox="0 0 218 25" role="img" aria-label="Vocab Learned: 609 words">
+  <title>Vocab Learned: 609 words</title>
+  <clipPath id="badge-radius">
+    <rect width="218" height="25" rx="5" ry="5" />
+  </clipPath>
+  <g clip-path="url(#badge-radius)">
+    <rect width="110" height="25" fill="#2d3436" />
+    <rect x="110" width="108" height="25" fill="#3C3489" />
+  </g>
+  <g fill="none" stroke="#3C3489">
+    <rect x="0.5" y="0.5" width="217" height="24" rx="4.5" ry="4.5" />
+  </g>
+  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12" font-weight="600">
+    <text x="10" y="17" fill="#f1f0fe">Vocab Learned</text>
+    <text x="122" y="17" fill="#ffffff">609 words</text>
+  </g>
+</svg>

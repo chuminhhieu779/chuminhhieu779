@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="25" viewBox="0 0 212 25" role="img" aria-label="🔥 IELTS Streak: 48 days">
+  <title>🔥 IELTS Streak: 48 days</title>
+  <clipPath id="badge-radius">
+    <rect width="212" height="25" rx="5" ry="5" />
+  </clipPath>
+  <g clip-path="url(#badge-radius)">
+    <rect width="126" height="25" fill="#2d3436" />
+    <rect x="126" width="86" height="25" fill="#3C3489" />
+  </g>
+  <g fill="none" stroke="#3C3489">
+    <rect x="0.5" y="0.5" width="211" height="24" rx="4.5" ry="4.5" />
+  </g>
+  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12" font-weight="600">
+    <text x="10" y="17" fill="#f1f0fe">🔥 IELTS Streak</text>
+    <text x="138" y="17" fill="#ffffff">48 days</text>
+  </g>
+</svg>

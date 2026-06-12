@@ -2,6 +2,7 @@
 
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { writeBadgeSvg } = require("./badge-svg.js");
 const { buildAuthHeaders } = require("./update-ielts.js");
 
 const BADGES_START_TAG = "<!-- YOUPASS_BADGES:START -->";
@@ -12,6 +13,7 @@ const API_ENDPOINT = "https://api.youpass.vn/v1/students";
 const STUDENT_ID = process.env.YOUPASS_STUDENT_ID || "7a775336-c7e7-4181-a994-386a185512c4";
 const START_DATE = process.env.YOUPASS_STREAK_START_DATE || "2026-04-01";
 const TIME_ZONE = process.env.YOUPASS_TIME_ZONE || "Asia/Ho_Chi_Minh";
+const STREAK_BADGE_PATH = "assets/ielts-streak.svg";
 const PAGE_SIZE = 100;
 const ACTIVITY_FIELDS = [
   "learned_duration",
@@ -49,14 +51,8 @@ function countActiveDays(items) {
   return activeDates.size;
 }
 
-function badgeUrl(days) {
-  const label = encodeURIComponent("🔥 IELTS Streak");
-  const message = encodeURIComponent(`${days} days`);
-  return `https://img.shields.io/badge/${label}-${message}-3C3489?style=flat-square&labelColor=2d3436&color=3C3489`;
-}
-
 function formatBadgeImage(days) {
-  return `<img src="${badgeUrl(days)}" height="25" style="border-radius: 5px;" alt="IELTS Streak: ${days} days" />`;
+  return `<img src="${STREAK_BADGE_PATH}" alt="IELTS Streak: ${days} days" />`;
 }
 
 function replaceTaggedSection(readme, startTag, endTag, content) {
@@ -159,6 +155,8 @@ async function updateReadme() {
   const progressItems = await fetchAllProgressItems(authHeaders, endDate);
   const streakDays = countActiveDays(progressItems);
 
+  await writeBadgeSvg(path.resolve(STREAK_BADGE_PATH), "🔥 IELTS Streak", `${streakDays} days`);
+
   const readme = ensureBadgeContainer(await fs.readFile(readmePath, "utf8"));
   const nextReadme = replaceTaggedSection(
     readme,
@@ -186,7 +184,6 @@ if (process.argv.includes("--help") || process.argv.includes("-h")) {
 }
 
 module.exports = {
-  badgeUrl,
   countActiveDays,
   ensureBadgeContainer,
   formatBadgeImage,

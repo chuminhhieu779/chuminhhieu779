@@ -2,6 +2,7 @@
 
 const fs = require("node:fs/promises");
 const path = require("node:path");
+const { writeBadgeSvg } = require("./badge-svg.js");
 const { buildAuthHeaders } = require("./update-ielts.js");
 const {
   ensureBadgeContainer,
@@ -11,15 +12,10 @@ const {
 const VOCAB_ENDPOINT = "https://api.youpass.vn/v1/users/vocabs";
 const VOCAB_BADGE_START_TAG = "<!-- YOUPASS_VOCAB_BADGE:START -->";
 const VOCAB_BADGE_END_TAG = "<!-- YOUPASS_VOCAB_BADGE:END -->";
-
-function badgeUrl(total) {
-  const label = encodeURIComponent("Vocab Learned");
-  const message = encodeURIComponent(`${total} words`);
-  return `https://img.shields.io/badge/${label}-${message}-3C3489?style=flat-square&labelColor=2d3436&color=3C3489`;
-}
+const VOCAB_BADGE_PATH = "assets/vocab-learned.svg";
 
 function formatBadgeImage(total) {
-  return `<img src="${badgeUrl(total)}" height="25" style="border-radius: 5px;" alt="Vocab Learned: ${total} words" />`;
+  return `<img src="${VOCAB_BADGE_PATH}" alt="Vocab Learned: ${total} words" />`;
 }
 
 function findTotal(payload) {
@@ -58,6 +54,8 @@ async function updateReadme() {
   const authHeaders = buildAuthHeaders(process.env.YOUPASS_TOKEN);
   const total = await fetchVocabTotal(authHeaders);
 
+  await writeBadgeSvg(path.resolve(VOCAB_BADGE_PATH), "Vocab Learned", `${total} words`);
+
   const readme = ensureBadgeContainer(await fs.readFile(readmePath, "utf8"));
   const nextReadme = replaceTaggedSection(
     readme,
@@ -85,7 +83,6 @@ if (process.argv.includes("--help") || process.argv.includes("-h")) {
 }
 
 module.exports = {
-  badgeUrl,
   findTotal,
   formatBadgeImage,
 };
