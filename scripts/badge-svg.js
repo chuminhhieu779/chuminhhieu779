@@ -5,7 +5,7 @@ const BADGE_HEIGHT = 25;
 const BORDER_RADIUS = 5;
 const FONT_SIZE = 12;
 const LABEL_PADDING_X = 10;
-const VALUE_PADDING_X = 12;
+const VALUE_PADDING_X = 8;
 const LABEL_COLOR = "#2d3436";
 const VALUE_COLOR = "#3C3489";
 const LABEL_TEXT_COLOR = "#f1f0fe";
@@ -42,6 +42,8 @@ function buildBadgeSvg(label, value) {
   const valueWidth = textWidth(value) + VALUE_PADDING_X * 2;
   const width = labelWidth + valueWidth;
   const textY = 17;
+  const labelTextX = labelWidth / 2;
+  const valueTextX = labelWidth + valueWidth / 2;
 
   return [
     `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${BADGE_HEIGHT}" viewBox="0 0 ${width} ${BADGE_HEIGHT}" role="img" aria-label="${escapeXml(`${label}: ${value}`)}">`,
@@ -56,9 +58,9 @@ function buildBadgeSvg(label, value) {
     `  <g fill="none" stroke="${VALUE_COLOR}">`,
     `    <rect x="0.5" y="0.5" width="${width - 1}" height="${BADGE_HEIGHT - 1}" rx="${BORDER_RADIUS - 0.5}" ry="${BORDER_RADIUS - 0.5}" />`,
     "  </g>",
-    `  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="${FONT_SIZE}" font-weight="600">`,
-    `    <text x="${LABEL_PADDING_X}" y="${textY}" fill="${LABEL_TEXT_COLOR}">${escapeXml(label)}</text>`,
-    `    <text x="${labelWidth + VALUE_PADDING_X}" y="${textY}" fill="${VALUE_TEXT_COLOR}">${escapeXml(value)}</text>`,
+    `  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="${FONT_SIZE}">`,
+    `    <text x="${labelTextX}" y="${textY}" text-anchor="middle" fill="${LABEL_TEXT_COLOR}">${escapeXml(label)}</text>`,
+    `    <text x="${valueTextX}" y="${textY}" text-anchor="middle" fill="${VALUE_TEXT_COLOR}">${escapeXml(value)}</text>`,
     "  </g>",
     "</svg>",
     "",
