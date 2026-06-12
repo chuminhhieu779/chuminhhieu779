@@ -23,6 +23,12 @@
 
 </div>
 
+<h2 align="center"> 📚 IELTS Progress 📚 </h2>
+
+<!-- YOUPASS:START -->
+IELTS stats will appear here after the workflow runs.
+<!-- YOUPASS:END -->
+
 <h2 align="center"> 🏆 Coding Activity & LeetCode 🏆 </h2>
 
 <!--START_SECTION:waka-->
