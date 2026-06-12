@@ -9,8 +9,8 @@ const END_TAG = "<!-- YOUPASS:END -->";
 const BAR_WIDTH = 25;
 
 const SKILLS = [
-  { id: 1, name: "Reading", icon: "📖", unit: "Passage" },
-  { id: 2, name: "Listening", icon: "🎧", unit: "Section" },
+  { id: 1, name: "Reading", unit: "Passage" },
+  { id: 2, name: "Listening", unit: "Section" },
 ];
 
 function usage() {
@@ -80,7 +80,7 @@ function rowLabel(skill, item, index) {
 }
 
 function formatSkill(skill, items) {
-  const lines = [`${skill.icon} ${skill.name}`];
+  const lines = [];
 
   if (items.length === 0) {
     lines.push("No data yet.");
@@ -143,11 +143,11 @@ function formatSkill(skill, items) {
 }
 
 function formatStats(skillResults) {
-  return [
-    "```text",
-    skillResults.map(({ skill, items }) => formatSkill(skill, items)).join("\n\n"),
-    "```",
-  ].join("\n");
+  return skillResults
+    .map(({ skill, items }) =>
+      [`**${skill.name}**`, "", "```text", formatSkill(skill, items), "```"].join("\n"),
+    )
+    .join("\n\n");
 }
 
 function replaceTaggedSection(readme, content) {
