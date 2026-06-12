@@ -155,7 +155,7 @@ async function updateReadme() {
   const progressItems = await fetchAllProgressItems(authHeaders, endDate);
   const streakDays = countActiveDays(progressItems);
 
-  await writeBadgeSvg(path.resolve(STREAK_BADGE_PATH), "🔥 IELTS Streak", `${streakDays} days`);
+  await writeBadgeSvg(path.resolve(STREAK_BADGE_PATH), "🔥 IELTS", `${streakDays} days`);
 
   const readme = ensureBadgeContainer(await fs.readFile(readmePath, "utf8"));
   const nextReadme = replaceTaggedSection(

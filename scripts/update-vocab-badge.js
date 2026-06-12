@@ -54,7 +54,7 @@ async function updateReadme() {
   const authHeaders = buildAuthHeaders(process.env.YOUPASS_TOKEN);
   const total = await fetchVocabTotal(authHeaders);
 
-  await writeBadgeSvg(path.resolve(VOCAB_BADGE_PATH), "Vocab Learned", `${total} words`);
+  await writeBadgeSvg(path.resolve(VOCAB_BADGE_PATH), "Vocab", `${total} words`);
 
   const readme = ensureBadgeContainer(await fs.readFile(readmePath, "utf8"));
   const nextReadme = replaceTaggedSection(
