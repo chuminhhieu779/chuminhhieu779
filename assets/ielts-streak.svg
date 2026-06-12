@@ -10,7 +10,7 @@
   <g fill="none" stroke="#3C3489">
     <rect x="0.5" y="0.5" width="203" height="24" rx="4.5" ry="4.5" />
   </g>
-  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12">
+  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12" font-weight="600">
     <text x="63" y="17" text-anchor="middle" fill="#f1f0fe">🔥 IELTS Streak</text>
     <text x="165" y="17" text-anchor="middle" fill="#ffffff">48 days</text>
   </g>

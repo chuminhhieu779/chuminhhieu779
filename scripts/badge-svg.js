@@ -58,7 +58,7 @@ function buildBadgeSvg(label, value) {
     `  <g fill="none" stroke="${VALUE_COLOR}">`,
     `    <rect x="0.5" y="0.5" width="${width - 1}" height="${BADGE_HEIGHT - 1}" rx="${BORDER_RADIUS - 0.5}" ry="${BORDER_RADIUS - 0.5}" />`,
     "  </g>",
-    `  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="${FONT_SIZE}">`,
+    `  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="${FONT_SIZE}" font-weight="600">`,
     `    <text x="${labelTextX}" y="${textY}" text-anchor="middle" fill="${LABEL_TEXT_COLOR}">${escapeXml(label)}</text>`,
     `    <text x="${valueTextX}" y="${textY}" text-anchor="middle" fill="${VALUE_TEXT_COLOR}">${escapeXml(value)}</text>`,
     "  </g>",
