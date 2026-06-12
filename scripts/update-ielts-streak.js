@@ -4,8 +4,10 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 const { buildAuthHeaders } = require("./update-ielts.js");
 
-const START_TAG = "<!-- YOUPASS_STREAK:START -->";
-const END_TAG = "<!-- YOUPASS_STREAK:END -->";
+const BADGES_START_TAG = "<!-- YOUPASS_BADGES:START -->";
+const BADGES_END_TAG = "<!-- YOUPASS_BADGES:END -->";
+const STREAK_BADGE_START_TAG = "<!-- YOUPASS_STREAK_BADGE:START -->";
+const STREAK_BADGE_END_TAG = "<!-- YOUPASS_STREAK_BADGE:END -->";
 const API_ENDPOINT = "https://api.youpass.vn/v1/students";
 const STUDENT_ID = process.env.YOUPASS_STUDENT_ID || "7a775336-c7e7-4181-a994-386a185512c4";
 const START_DATE = process.env.YOUPASS_STREAK_START_DATE || "2026-04-01";
@@ -53,35 +55,57 @@ function badgeUrl(days) {
   return `https://img.shields.io/badge/${label}-${message}-3C3489?style=flat-square&labelColor=2d3436&color=3C3489`;
 }
 
-function formatBadge(days) {
-  return [
-    '<p align="left">',
-    `  <img src="${badgeUrl(days)}" alt="IELTS Streak: ${days} days" />`,
-    "</p>",
-  ].join("\n");
+function formatBadgeImage(days) {
+  return `<img src="${badgeUrl(days)}" height="25" style="border-radius: 5px;" alt="IELTS Streak: ${days} days" />`;
 }
 
-function replaceTaggedSection(readme, content) {
-  if (!readme.includes(START_TAG) || !readme.includes(END_TAG)) {
-    throw new Error(`README must contain both ${START_TAG} and ${END_TAG}.`);
+function replaceTaggedSection(readme, startTag, endTag, content) {
+  if (!readme.includes(startTag) || !readme.includes(endTag)) {
+    throw new Error(`README must contain both ${startTag} and ${endTag}.`);
   }
 
-  const startIndex = readme.indexOf(START_TAG);
-  const endIndex = readme.indexOf(END_TAG);
+  const startIndex = readme.indexOf(startTag);
+  const endIndex = readme.indexOf(endTag);
 
   if (startIndex > endIndex) {
-    throw new Error(`${START_TAG} must appear before ${END_TAG}.`);
+    throw new Error(`${startTag} must appear before ${endTag}.`);
   }
 
   return [
     readme.slice(0, startIndex),
-    START_TAG,
+    startTag,
     "\n",
     content,
     "\n",
-    END_TAG,
-    readme.slice(endIndex + END_TAG.length),
+    endTag,
+    readme.slice(endIndex + endTag.length),
   ].join("");
+}
+
+function ensureBadgeContainer(readme) {
+  if (readme.includes(BADGES_START_TAG) && readme.includes(BADGES_END_TAG)) {
+    return readme;
+  }
+
+  if (!readme.includes("<!-- YOUPASS_STREAK:START -->") || !readme.includes("<!-- YOUPASS_STREAK:END -->")) {
+    throw new Error(`README must contain either ${BADGES_START_TAG}/${BADGES_END_TAG} or the old YOUPASS_STREAK tags.`);
+  }
+
+  return replaceTaggedSection(
+    readme,
+    "<!-- YOUPASS_STREAK:START -->",
+    "<!-- YOUPASS_STREAK:END -->",
+    [
+      BADGES_START_TAG,
+      '<p align="left">',
+      `  ${STREAK_BADGE_START_TAG}`,
+      `  ${STREAK_BADGE_END_TAG}`,
+      `  <!-- YOUPASS_VOCAB_BADGE:START -->`,
+      `  <!-- YOUPASS_VOCAB_BADGE:END -->`,
+      "</p>",
+      BADGES_END_TAG,
+    ].join("\n"),
+  );
 }
 
 async function fetchProgressPage(authHeaders, page, endedAt) {
@@ -135,8 +159,13 @@ async function updateReadme() {
   const progressItems = await fetchAllProgressItems(authHeaders, endDate);
   const streakDays = countActiveDays(progressItems);
 
-  const readme = await fs.readFile(readmePath, "utf8");
-  const nextReadme = replaceTaggedSection(readme, formatBadge(streakDays));
+  const readme = ensureBadgeContainer(await fs.readFile(readmePath, "utf8"));
+  const nextReadme = replaceTaggedSection(
+    readme,
+    STREAK_BADGE_START_TAG,
+    STREAK_BADGE_END_TAG,
+    `  ${formatBadgeImage(streakDays)}`,
+  );
 
   if (nextReadme === readme) {
     console.log("IELTS streak badge is already up to date.");
@@ -159,7 +188,9 @@ if (process.argv.includes("--help") || process.argv.includes("-h")) {
 module.exports = {
   badgeUrl,
   countActiveDays,
-  formatBadge,
+  ensureBadgeContainer,
+  formatBadgeImage,
   hasLearningActivity,
+  replaceTaggedSection,
   todayInTimeZone,
 };

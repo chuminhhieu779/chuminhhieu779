@@ -27,6 +27,11 @@ jobs:
           YOUPASS_TOKEN: ${{ secrets.YOUPASS_TOKEN }}
         run: node scripts/update-ielts-streak.js
 
+      - name: Update vocab badge
+        env:
+          YOUPASS_TOKEN: ${{ secrets.YOUPASS_TOKEN }}
+        run: node scripts/update-vocab-badge.js
+
       - name: Update IELTS progress stats
         env:
           YOUPASS_TOKEN: ${{ secrets.YOUPASS_TOKEN }}
