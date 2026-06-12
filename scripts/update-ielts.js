@@ -11,8 +11,6 @@ const BAR_WIDTH = 25;
 const SKILLS = [
   { id: 1, name: "Reading", icon: "📖", unit: "Passage" },
   { id: 2, name: "Listening", icon: "🎧", unit: "Section" },
-  { id: 3, name: "Writing", icon: "✍️", unit: "Task" },
-  { id: 4, name: "Speaking", icon: "🗣️", unit: "Part" },
 ];
 
 function usage() {
