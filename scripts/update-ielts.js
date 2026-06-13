@@ -7,10 +7,12 @@ const API_ENDPOINT = "https://api.youpass.vn/v1/answers/statistics";
 const START_TAG = "<!-- YOUPASS:START -->";
 const END_TAG = "<!-- YOUPASS:END -->";
 const BAR_WIDTH = 25;
+const ACTIVITY_PAGE_SIZE = 3;
+const ACTIVITY_LIMIT = Number(process.env.YOUPASS_ACTIVITY_LIMIT || 10);
 
 const SKILLS = [
   { id: 1, name: "Reading", icon: "📖", unit: "Passage" },
-  { id: 2, name: "Listening", icon: "🎵", unit: "Section" },
+  { id: 2, name: "Listening", icon: "🎧", unit: "Section" },
 ];
 
 function usage() {
@@ -52,9 +54,43 @@ function numberOrZero(value) {
   return Number.isFinite(number) ? number : 0;
 }
 
+function firstValue(...values) {
+  return values.find((value) => value !== undefined && value !== null && String(value).trim() !== "");
+}
+
+function firstFiniteNumber(...values) {
+  for (const value of values) {
+    const number = Number(value);
+    if (Number.isFinite(number)) {
+      return number;
+    }
+  }
+
+  return undefined;
+}
+
+function fitEnd(value, width) {
+  return (String(value) + " ".repeat(width)).slice(0, width);
+}
+
+function fitStart(value, width) {
+  return (" ".repeat(width) + String(value)).slice(-width);
+}
+
 function percentFor(item) {
-  const explicit = Number(item.correct_percent);
-  if (Number.isFinite(explicit)) {
+  const explicit = firstFiniteNumber(
+    item.correct_percent,
+    item.correctPercent,
+    item.percent,
+    item.percentage,
+    item.score_percent,
+    item.scorePercent,
+    item.result_percent,
+    item.resultPercent,
+    item.accuracy,
+  );
+
+  if (explicit !== undefined) {
     return explicit;
   }
 
@@ -77,6 +113,101 @@ function rowLabel(skill, item, index) {
   }
 
   return `${skill.unit} ${text}`;
+}
+
+function formatDate(value) {
+  const raw = String(value || "").trim();
+  const match = raw.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+
+  if (match) {
+    return `${match[1].slice(2)}.${Number(match[2])}.${Number(match[3])}`;
+  }
+
+  const date = new Date(raw);
+  if (Number.isNaN(date.getTime())) {
+    return raw || "-";
+  }
+
+  return `${String(date.getFullYear()).slice(2)}.${date.getMonth() + 1}.${date.getDate()}`;
+}
+
+function activityTimestamp(item) {
+  const value = firstValue(
+    item.date_created,
+    item.created_date,
+    item.created_at,
+    item.createdAt,
+    item.updated_at,
+    item.submitted_at,
+    item.finished_at,
+  );
+  const timestamp = Date.parse(String(value || ""));
+
+  return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
+function activityTitle(item) {
+  return String(
+    firstValue(
+      item.title,
+      item.test_title,
+      item.exam_title,
+      item.exercise_title,
+      item.name,
+      item.test?.title,
+      item.exam?.title,
+      item.exercise?.title,
+      item.lesson?.title,
+      item.answer?.title,
+      item.topic?.title,
+      "-",
+    ),
+  );
+}
+
+function activityDuration(item) {
+  const candidates = [
+    ["duration_seconds", item.duration_seconds],
+    ["durationSecond", item.durationSecond],
+    ["total_seconds", item.total_seconds],
+    ["duration_minutes", item.duration_minutes],
+    ["durationMinute", item.durationMinute],
+    ["duration", item.duration],
+    ["time_spent", item.time_spent],
+    ["timeSpent", item.timeSpent],
+    ["total_time", item.total_time],
+    ["learned_duration", item.learned_duration],
+    ["elapsed_time", item.elapsed_time],
+    ["time", item.time],
+  ];
+
+  const found = candidates.find(([, value]) => value !== undefined && value !== null && String(value).trim() !== "");
+  if (!found) {
+    return "-";
+  }
+
+  const [field, value] = found;
+  if (typeof value === "string" && /[hms]/i.test(value)) {
+    return value;
+  }
+
+  const number = Number(value);
+  if (!Number.isFinite(number) || number <= 0) {
+    return "-";
+  }
+
+  let minutes = number;
+  if (/second/i.test(field) || (!/minute/i.test(field) && number >= 180)) {
+    minutes = Math.round(number / 60);
+  }
+
+  if (minutes >= 60) {
+    const hours = Math.floor(minutes / 60);
+    const remainder = minutes % 60;
+    return remainder > 0 ? `${hours}h ${remainder}m` : `${hours}h`;
+  }
+
+  return `${Math.round(minutes)}m`;
 }
 
 function formatSkill(skill, items) {
@@ -142,10 +273,77 @@ function formatSkill(skill, items) {
   return lines.join("\n");
 }
 
-function formatStats(skillResults) {
+function normalizeActivity(skill, item) {
+  const date = firstValue(
+    item.date_created,
+    item.created_date,
+    item.created_at,
+    item.createdAt,
+    item.updated_at,
+    item.submitted_at,
+    item.finished_at,
+  );
+
+  return {
+    date: formatDate(date),
+    skill: skill.name,
+    title: activityTitle(item),
+    percent: `${percentFor(item).toFixed(2)}%`,
+    time: activityDuration(item),
+    timestamp: activityTimestamp(item),
+  };
+}
+
+function formatActivity(activityItems) {
+  const lines = ["📋 Recent Activity"];
+
+  if (activityItems.length === 0) {
+    lines.push("No activity yet.");
+    return lines.join("\n");
+  }
+
+  const rows = activityItems.map(({ skill, item }) => normalizeActivity(skill, item));
+  const widths = {
+    date: 9,
+    skill: 12,
+    title: 42,
+    score: 8,
+    time: Math.max("Time".length, ...rows.map((row) => row.time.length)),
+  };
+
+  const header = [
+    fitEnd("Date", widths.date),
+    fitEnd("Skill", widths.skill),
+    fitEnd("Title", widths.title),
+    fitStart("Score", widths.score),
+    fitStart("Time", widths.time),
+  ].join("  ");
+
+  lines.push(header);
+  lines.push("─".repeat(Math.max(64, header.length)));
+
+  for (const row of rows) {
+    lines.push(
+      [
+        fitEnd(row.date, widths.date),
+        fitEnd(row.skill, widths.skill),
+        fitEnd(row.title, widths.title),
+        fitStart(row.percent, widths.score),
+        fitStart(row.time, widths.time),
+      ].join("  "),
+    );
+  }
+
+  return lines.join("\n");
+}
+
+function formatStats(skillResults, activityItems = []) {
   return [
     "```text",
-    skillResults.map(({ skill, items }) => formatSkill(skill, items)).join("\n\n"),
+    [
+      skillResults.map(({ skill, items }) => formatSkill(skill, items)).join("\n\n"),
+      formatActivity(activityItems),
+    ].join("\n\n"),
     "```",
   ].join("\n");
 }
@@ -198,19 +396,58 @@ async function fetchSkillStats(skill, authHeaders) {
   return Array.isArray(payload?.data?.items) ? payload.data.items : [];
 }
 
+async function fetchSkillActivity(skill, authHeaders) {
+  const url = new URL(API_ENDPOINT);
+  url.searchParams.set("skill_id", String(skill.id));
+  url.searchParams.set("page", "1");
+  url.searchParams.set("page_size", String(ACTIVITY_PAGE_SIZE));
+  url.searchParams.set("type", "1");
+  url.searchParams.set("sort", "date_created.desc");
+
+  const response = await fetch(url, {
+    headers: {
+      Accept: "application/json",
+      ...authHeaders,
+    },
+  });
+
+  if (!response.ok) {
+    const body = await response.text();
+    throw new Error(
+      `Youpass activity API returned ${response.status} for ${skill.name}: ${body.slice(0, 300)}`,
+    );
+  }
+
+  const payload = await response.json();
+  return Array.isArray(payload?.data?.items) ? payload.data.items : [];
+}
+
 async function updateReadme() {
   const readmePath = path.resolve(process.env.README_PATH || "README.md");
   const authHeaders = buildAuthHeaders(process.env.YOUPASS_TOKEN);
 
-  const skillResults = await Promise.all(
-    SKILLS.map(async (skill) => ({
-      skill,
-      items: await fetchSkillStats(skill, authHeaders),
-    })),
-  );
+  const [skillResults, activityResults] = await Promise.all([
+    Promise.all(
+      SKILLS.map(async (skill) => ({
+        skill,
+        items: await fetchSkillStats(skill, authHeaders),
+      })),
+    ),
+    Promise.all(
+      SKILLS.map(async (skill) => ({
+        skill,
+        items: await fetchSkillActivity(skill, authHeaders),
+      })),
+    ),
+  ]);
+
+  const activityItems = activityResults
+    .flatMap(({ skill, items }) => items.map((item) => ({ skill, item })))
+    .sort((left, right) => activityTimestamp(right.item) - activityTimestamp(left.item))
+    .slice(0, Number.isFinite(ACTIVITY_LIMIT) && ACTIVITY_LIMIT > 0 ? ACTIVITY_LIMIT : 10);
 
   const readme = await fs.readFile(readmePath, "utf8");
-  const nextReadme = replaceTaggedSection(readme, formatStats(skillResults));
+  const nextReadme = replaceTaggedSection(readme, formatStats(skillResults, activityItems));
 
   if (nextReadme === readme) {
     console.log("README is already up to date.");
@@ -231,7 +468,12 @@ if (process.argv.includes("--help") || process.argv.includes("-h")) {
 }
 
 module.exports = {
+  activityDuration,
+  activityTimestamp,
+  activityTitle,
   buildAuthHeaders,
+  formatActivity,
+  formatDate,
   formatSkill,
   formatStats,
   progressBar,
