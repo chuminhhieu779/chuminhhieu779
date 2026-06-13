@@ -8,6 +8,7 @@ const START_TAG = "<!-- DAILY_READING:START -->";
 const END_TAG = "<!-- DAILY_READING:END -->";
 const DEFAULT_DATA_PATH = "assets/daily-reading.json";
 const DEFAULT_LIMIT = 3;
+const TABLE_SEPARATOR_WIDTH = 100;
 
 function usage() {
   return [
@@ -252,7 +253,7 @@ function formatDailyReading(data) {
     "📰 Daily Reading",
     "",
     header,
-    "─".repeat(Math.max(64, header.length)),
+    "─".repeat(Math.max(TABLE_SEPARATOR_WIDTH, header.length)),
     ...rows,
     "```",
   ].join("\n");

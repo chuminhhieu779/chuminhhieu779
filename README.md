@@ -40,22 +40,22 @@
 ```text
 📖 Reading
 
-              Correct  Wrong  Skipped  Total  Progress
-──────────────────────────────────────────────────────────────────────────────────────────
-Passage 1         275    132        9    416  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.11%
+                Correct    Wrong    Skipped    Total    Progress
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Passage 1           275      132          9      416    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.11%
 
 🎧 Listening
 
-              Correct  Wrong  Skipped  Total  Progress
-──────────────────────────────────────────────────────────────────────────────────────────
-Section 1         153     97       20    270  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   56.67%
+                Correct    Wrong    Skipped    Total    Progress
+────────────────────────────────────────────────────────────────────────────────────────────────────
+Section 1           153       97         20      270    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   56.67%
 ```
 
 ```text
 📋 Recent Activity
 
 Date        Skill          Title                                           Score      Time
-──────────────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────────────────────────
 26.6.12     Reading        The History of the Bar Code                    69.23%       35m
 
 26.6.11     Reading        The Rufous Hare-Wallaby                        69.23%       35m
@@ -75,12 +75,12 @@ Date        Skill          Title                                           Score
 📰 Daily Reading
 
 Date       Topic          Article                                                New Vocab
-──────────────────────────────────────────────────────────────────────────────────────────
-26.6.11    General        10 Surprising Hamster Facts                             44 words
+────────────────────────────────────────────────────────────────────────────────────────────────────
+26.6.13    Environment    Stars Are Disappearing From Sight                       32 words
 
-26.6.11    General        Conservation Groups Sue Utah for Starving the Great     43 words
+26.6.12    Lifestyle      Mediterranean Lifestyle Slashes Risk of Early Death     28 words
 
-26.6.11    General        Converting Your Gas-Powered Car to Electri              28 words
+26.6.11    History        Sky-Gazing Medieval Monks Shed Light on Volcanic Mys    35 words
 ```
 <!-- DAILY_READING:END -->
 

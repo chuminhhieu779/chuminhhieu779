@@ -9,7 +9,7 @@ const END_TAG = "<!-- YOUPASS:END -->";
 const BAR_WIDTH = 25;
 const ACTIVITY_PAGE_SIZE = 3;
 const ACTIVITY_LIMIT = Number(process.env.YOUPASS_ACTIVITY_LIMIT || 10);
-const TABLE_SEPARATOR_WIDTH = 90;
+const TABLE_SEPARATOR_WIDTH = 100;
 
 const SKILLS = [
   { id: 1, name: "Reading", icon: "📖", unit: "Passage" },
@@ -401,7 +401,7 @@ function formatSkill(skill, items) {
     "Skipped".padStart(widths.skipped),
     "Total".padStart(widths.total),
     "Progress",
-  ].join("  ");
+  ].join("    ");
 
   lines.push("");
   lines.push(header);
@@ -416,7 +416,7 @@ function formatSkill(skill, items) {
         String(row.skipped).padStart(widths.skipped),
         String(row.total).padStart(widths.total),
         `${row.bar}  ${row.percent.padStart(widths.percent)}`,
-      ].join("  "),
+      ].join("    "),
     );
   }
 
