@@ -77,6 +77,130 @@ function fitStart(value, width) {
   return (" ".repeat(width) + String(value)).slice(-width);
 }
 
+function isRecord(value) {
+  return value !== null && typeof value === "object";
+}
+
+function walkObject(value, visit, path = [], seen = new Set()) {
+  if (!isRecord(value) || seen.has(value) || path.length > 6) {
+    return;
+  }
+
+  seen.add(value);
+
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => walkObject(item, visit, path.concat(String(index)), seen));
+    return;
+  }
+
+  for (const [key, child] of Object.entries(value)) {
+    const nextPath = path.concat(key);
+    visit(key, child, nextPath);
+    walkObject(child, visit, nextPath, seen);
+  }
+}
+
+function looksLikeUsefulTitle(value) {
+  const text = String(value || "").trim();
+  return text.length > 1
+    && !/^[-\d.:%\s]+$/.test(text)
+    && !/^[0-9a-f]{8}-[0-9a-f-]{27,}$/i.test(text)
+    && !/^https?:\/\//i.test(text);
+}
+
+function titleKeyScore(path) {
+  const joined = path.join(".").toLowerCase();
+  const key = path.at(-1).toLowerCase();
+
+  if (/(^|[_-])(title|name)$/.test(key) || /(title|name)$/i.test(key)) {
+    if (/(test|exam|exercise|lesson|topic|passage|section|question|material|resource|book)/.test(joined)) {
+      return 3;
+    }
+
+    if (!/(skill|type|level|status|category|user|student|teacher|author|id)/.test(joined)) {
+      return 1;
+    }
+  }
+
+  return 0;
+}
+
+function findDeepTitle(item) {
+  const matches = [];
+
+  walkObject(item, (key, value, path) => {
+    if (typeof value !== "string" || !looksLikeUsefulTitle(value)) {
+      return;
+    }
+
+    const score = titleKeyScore(path);
+    if (score > 0) {
+      matches.push({ score, depth: path.length, value: value.trim() });
+    }
+  });
+
+  matches.sort((left, right) => right.score - left.score || left.depth - right.depth);
+  return matches[0]?.value;
+}
+
+function cleanActivityTitle(value) {
+  return String(value)
+    .trim()
+    .replace(/^\[[^\]]+\]\s*-\s*/, "")
+    .trim();
+}
+
+function durationValue(field, value) {
+  if (value === undefined || value === null || String(value).trim() === "") {
+    return undefined;
+  }
+
+  if (typeof value === "string" && /[hms]/i.test(value)) {
+    return value;
+  }
+
+  const number = Number(value);
+  if (!Number.isFinite(number) || number <= 0) {
+    return undefined;
+  }
+
+  let minutes = number;
+  if (/second|sec/i.test(field) || (!/minute|min/i.test(field) && number >= 180)) {
+    minutes = Math.round(number / 60);
+  }
+
+  if (minutes >= 60) {
+    const hours = Math.floor(minutes / 60);
+    const remainder = minutes % 60;
+    return remainder > 0 ? `${hours}h ${remainder}m` : `${hours}h`;
+  }
+
+  return `${Math.round(minutes)}m`;
+}
+
+function findDeepDuration(item) {
+  const matches = [];
+
+  walkObject(item, (key, value, path) => {
+    const joined = path.join(".").toLowerCase();
+    if (!/(duration|spent|elapsed|learned|second|minute|total_time|time_spent|spent_time)/.test(joined)) {
+      return;
+    }
+
+    if (/(created|updated|submitted|finished|date|timestamp|timezone)/.test(joined)) {
+      return;
+    }
+
+    const formatted = durationValue(key, value);
+    if (formatted) {
+      matches.push({ depth: path.length, value: formatted });
+    }
+  });
+
+  matches.sort((left, right) => left.depth - right.depth);
+  return matches[0]?.value;
+}
+
 function percentFor(item) {
   const explicit = firstFiniteNumber(
     item.correct_percent,
@@ -147,26 +271,68 @@ function activityTimestamp(item) {
 }
 
 function activityTitle(item) {
-  return String(
+  const title = String(
     firstValue(
       item.title,
+      item.quiz_title,
+      item.quizTitle,
       item.test_title,
+      item.testTitle,
       item.exam_title,
+      item.examTitle,
       item.exercise_title,
+      item.exerciseTitle,
+      item.topic_title,
+      item.topicTitle,
+      item.lesson_title,
+      item.lessonTitle,
+      item.passage_title,
+      item.passageTitle,
+      item.section_title,
+      item.sectionTitle,
+      item.question_group_title,
+      item.questionGroupTitle,
+      item.questionGroup?.title,
+      item.question_group?.title,
+      item.questionGroup?.name,
+      item.question_group?.name,
       item.name,
+      item.test_name,
+      item.testName,
+      item.exam_name,
+      item.examName,
+      item.exercise_name,
+      item.exerciseName,
       item.test?.title,
+      item.test?.name,
       item.exam?.title,
+      item.exam?.name,
       item.exercise?.title,
+      item.exercise?.name,
       item.lesson?.title,
+      item.lesson?.name,
       item.answer?.title,
+      item.answer?.name,
       item.topic?.title,
+      item.topic?.name,
+      item.resource?.title,
+      item.resource?.name,
+      item.material?.title,
+      item.material?.name,
+      item.book?.title,
+      item.book?.name,
+      findDeepTitle(item),
       "-",
     ),
   );
+
+  return cleanActivityTitle(title);
 }
 
 function activityDuration(item) {
   const candidates = [
+    ["completed_duration", item.completed_duration],
+    ["completedDuration", item.completedDuration],
     ["duration_seconds", item.duration_seconds],
     ["durationSecond", item.durationSecond],
     ["total_seconds", item.total_seconds],
@@ -181,39 +347,21 @@ function activityDuration(item) {
     ["time", item.time],
   ];
 
-  const found = candidates.find(([, value]) => value !== undefined && value !== null && String(value).trim() !== "");
-  if (!found) {
-    return "-";
+  for (const [field, value] of candidates) {
+    const formatted = durationValue(field, value);
+    if (formatted) {
+      return formatted;
+    }
   }
 
-  const [field, value] = found;
-  if (typeof value === "string" && /[hms]/i.test(value)) {
-    return value;
-  }
-
-  const number = Number(value);
-  if (!Number.isFinite(number) || number <= 0) {
-    return "-";
-  }
-
-  let minutes = number;
-  if (/second/i.test(field) || (!/minute/i.test(field) && number >= 180)) {
-    minutes = Math.round(number / 60);
-  }
-
-  if (minutes >= 60) {
-    const hours = Math.floor(minutes / 60);
-    const remainder = minutes % 60;
-    return remainder > 0 ? `${hours}h ${remainder}m` : `${hours}h`;
-  }
-
-  return `${Math.round(minutes)}m`;
+  return findDeepDuration(item) || "-";
 }
 
 function formatSkill(skill, items) {
   const lines = [`${skill.icon} ${skill.name}`];
 
   if (items.length === 0) {
+    lines.push("");
     lines.push("No data yet.");
     return lines.join("\n");
   }
@@ -254,6 +402,7 @@ function formatSkill(skill, items) {
     "Progress",
   ].join("  ");
 
+  lines.push("");
   lines.push(header);
   lines.push("─".repeat(Math.max(64, header.length + BAR_WIDTH + widths.percent + 4)));
 
@@ -298,6 +447,7 @@ function formatActivity(activityItems) {
   const lines = ["📋 Recent Activity"];
 
   if (activityItems.length === 0) {
+    lines.push("");
     lines.push("No activity yet.");
     return lines.join("\n");
   }
@@ -319,6 +469,7 @@ function formatActivity(activityItems) {
     fitStart("Time", widths.time),
   ].join("  ");
 
+  lines.push("");
   lines.push(header);
   lines.push("─".repeat(Math.max(64, header.length)));
 
