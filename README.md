@@ -60,6 +60,18 @@ Date       Skill         Title                                          Score  T
 ```
 <!-- YOUPASS:END -->
 
+<!-- DAILY_READING:START -->
+```text
+📰 Daily Reading
+
+Date       Topic          Article                                                New Vocab
+──────────────────────────────────────────────────────────────────────────────────────────
+26.6.13    Environment    Stars Are Disappearing From Sight                       32 words
+26.6.12    Lifestyle      Mediterranean Lifestyle Slashes Risk of Early Death     28 words
+26.6.11    History        Sky-Gazing Medieval Monks Shed Light on Volcanic Mys    35 words
+```
+<!-- DAILY_READING:END -->
+
 <h2 align="center"> 🏆 Coding Activity & LeetCode 🏆 </h2>
 
 <!--START_SECTION:waka-->
@@ -108,4 +120,3 @@ TypeScript               1 repo              ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
     "
   />
 </div>
-

@@ -17,6 +17,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Checkout Daily Reading source
+        uses: actions/checkout@v6
+        with:
+          repository: midori-suzune/Practice-English-Daily
+          ref: master
+          path: practice-english-daily
+
       - name: Set up Node.js
         uses: actions/setup-node@v6
         with:
@@ -37,15 +44,20 @@ jobs:
           YOUPASS_TOKEN: ${{ secrets.YOUPASS_TOKEN }}
         run: node scripts/update-ielts.js
 
+      - name: Update Daily Reading
+        env:
+          DAILY_READING_PATH: practice-english-daily/Reading
+        run: node scripts/update-daily-reading.js
+
       - name: Commit and push changes
         run: |
-          if git diff --quiet README.md assets/ielts-streak.svg assets/vocab-learned.svg; then
-            echo "No IELTS stats changes."
+          if git diff --quiet README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/daily-reading.json; then
+            echo "No learning stats changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/ielts-streak.svg assets/vocab-learned.svg
-          git commit -m "Update IELTS stats [skip ci]"
+          git add README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/daily-reading.json
+          git commit -m "Update learning stats [skip ci]"
           git push
