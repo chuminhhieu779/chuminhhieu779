@@ -76,11 +76,11 @@ Date        Skill          Title                                           Score
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.6.11    General        10 Surprising Hamster Facts                             44 words
+26.6.10    General        What Is Wind Energy?                                    15 words
 
-26.6.11    General        Conservation Groups Sue Utah for Starving the Great     43 words
+26.6.9     General        10 Surprising Hamster Facts                             44 words
 
-26.6.11    General        Converting Your Gas-Powered Car to Electri              28 words
+26.6.8     General        Pollution Prevention Act: Summary and Importance        18 words
 ```
 <!-- DAILY_READING:END -->
 

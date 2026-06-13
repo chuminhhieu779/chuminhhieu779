@@ -9,6 +9,7 @@ const END_TAG = "<!-- DAILY_READING:END -->";
 const DEFAULT_DATA_PATH = "assets/daily-reading.json";
 const DEFAULT_LIMIT = 3;
 const TABLE_SEPARATOR_WIDTH = 100;
+const TIME_ZONE = process.env.DAILY_READING_TIME_ZONE || "Asia/Ho_Chi_Minh";
 
 function usage() {
   return [
@@ -19,6 +20,7 @@ function usage() {
     "  DAILY_READING_PATH     Path to JSON data, a markdown file, or a markdown directory.",
     "  DAILY_READING_FILE     Markdown filename to use when DAILY_READING_PATH is a directory.",
     "  DAILY_READING_LIMIT    Number of rows to render. Defaults to 3.",
+    "  DAILY_READING_TIME_ZONE Time zone for git commit dates. Defaults to Asia/Ho_Chi_Minh.",
   ].join("\n");
 }
 
@@ -44,6 +46,23 @@ function formatDate(value) {
   }
 
   return `${String(date.getFullYear()).slice(2)}.${date.getMonth() + 1}.${date.getDate()}`;
+}
+
+function dateFromTimestamp(timestamp) {
+  const date = new Date(Number(timestamp) * 1000);
+  if (Number.isNaN(date.getTime())) {
+    return "";
+  }
+
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return `${values.year}-${values.month}-${values.day}`;
 }
 
 function rowLimit() {
@@ -133,15 +152,15 @@ async function listMarkdownFiles(dirPath) {
 function gitCommitInfo(filePath, cwd) {
   try {
     const relativePath = path.relative(cwd, filePath);
-    const output = execFileSync("git", ["-C", cwd, "log", "-1", "--format=%ct %ad", "--date=short", "--", relativePath], {
+    const output = execFileSync("git", ["-C", cwd, "log", "-1", "--format=%ct", "--", relativePath], {
       encoding: "utf8",
       stdio: ["ignore", "pipe", "ignore"],
     }).trim();
-    const [timestamp, date] = output.split(/\s+/, 2);
+    const timestamp = Number(output) || 0;
 
     return {
-      date,
-      timestamp: Number(timestamp) || 0,
+      date: dateFromTimestamp(timestamp),
+      timestamp,
     };
   } catch {
     return {
@@ -191,7 +210,7 @@ async function markdownEntry(markdownPath, sourceRoot) {
   const metadata = metadataFromMarkdown(markdown);
 
   return {
-    date: metadata.date || commit.date || new Date(stat.mtimeMs).toISOString().slice(0, 10),
+    date: commit.date || metadata.date || new Date(stat.mtimeMs).toISOString().slice(0, 10),
     article: titleFromMarkdownPath(markdownPath),
     topic: metadata.topic,
     vocab: countVocabEntries(markdown),
