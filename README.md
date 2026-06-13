@@ -76,11 +76,11 @@ Date        Skill          Title                                           Score
 
 Date       Topic          Article                                                New Vocab
 ──────────────────────────────────────────────────────────────────────────────────────────
-26.6.13    Environment    Stars Are Disappearing From Sight                       32 words
+26.6.11    General        10 Surprising Hamster Facts                             44 words
 
-26.6.12    Lifestyle      Mediterranean Lifestyle Slashes Risk of Early Death     28 words
+26.6.11    General        Conservation Groups Sue Utah for Starving the Great     43 words
 
-26.6.11    History        Sky-Gazing Medieval Monks Shed Light on Volcanic Mys    35 words
+26.6.11    General        Converting Your Gas-Powered Car to Electri              28 words
 ```
 <!-- DAILY_READING:END -->
 
