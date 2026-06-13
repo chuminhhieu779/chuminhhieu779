@@ -23,6 +23,7 @@ jobs:
           repository: midori-suzune/Practice-English-Daily
           ref: master
           path: practice-english-daily
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v6

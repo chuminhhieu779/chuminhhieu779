@@ -77,7 +77,7 @@ function countVocabEntries(markdown) {
   return content
     .split(/\r?\n/)
     .map((line) => line.trim())
-    .filter((line) => line && !line.startsWith("#") && !/^topic\s*:/i.test(line) && /[:=]/.test(line))
+    .filter((line) => line && !line.startsWith("#") && !/^(date|topic)\s*:/i.test(line) && /[:=]/.test(line))
     .length;
 }
 
@@ -85,23 +85,33 @@ function stripYamlQuotes(value) {
   return String(value || "").trim().replace(/^['"]|['"]$/g, "");
 }
 
-function topicFromMarkdown(markdown) {
+function metadataValue(markdown, key) {
+  const keyPattern = new RegExp(`^\\s*${key}\\s*:`, "i");
+  const keyReplace = new RegExp(`^\\s*${key}\\s*:\\s*`, "i");
   const frontmatter = markdown.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
-  if (frontmatter) {
-    const topicLine = frontmatter[1]
-      .split(/\r?\n/)
-      .find((line) => /^\s*topic\s*:/i.test(line));
 
-    if (topicLine) {
-      return stripYamlQuotes(topicLine.replace(/^\s*topic\s*:\s*/i, ""));
+  if (frontmatter) {
+    const metadataLine = frontmatter[1]
+      .split(/\r?\n/)
+      .find((line) => keyPattern.test(line));
+
+    if (metadataLine) {
+      return stripYamlQuotes(metadataLine.replace(keyReplace, ""));
     }
   }
 
-  const inlineTopic = markdown
+  const inlineMetadata = markdown
     .split(/\r?\n/)
-    .find((line) => /^\s*topic\s*:/i.test(line));
+    .find((line) => keyPattern.test(line));
 
-  return inlineTopic ? stripYamlQuotes(inlineTopic.replace(/^\s*topic\s*:\s*/i, "")) : "General";
+  return inlineMetadata ? stripYamlQuotes(inlineMetadata.replace(keyReplace, "")) : "";
+}
+
+function metadataFromMarkdown(markdown) {
+  return {
+    date: metadataValue(markdown, "date"),
+    topic: metadataValue(markdown, "topic") || "General",
+  };
 }
 
 async function listMarkdownFiles(dirPath) {
@@ -178,11 +188,12 @@ async function markdownEntry(markdownPath, sourceRoot) {
   const markdown = await fs.readFile(markdownPath, "utf8");
   const stat = await fs.stat(markdownPath);
   const commit = gitCommitInfo(markdownPath, sourceRoot);
+  const metadata = metadataFromMarkdown(markdown);
 
   return {
-    date: commit.date || new Date(stat.mtimeMs).toISOString().slice(0, 10),
+    date: metadata.date || commit.date || new Date(stat.mtimeMs).toISOString().slice(0, 10),
     article: titleFromMarkdownPath(markdownPath),
-    topic: topicFromMarkdown(markdown),
+    topic: metadata.topic,
     vocab: countVocabEntries(markdown),
   };
 }
