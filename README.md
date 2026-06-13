@@ -39,24 +39,27 @@
 <!-- YOUPASS:START -->
 ```text
 📖 Reading
+
               Correct  Wrong  Skipped  Total  Progress
 ──────────────────────────────────────────────────────────────────────────────────────────
 Passage 1         275    132        9    416  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.11%
 
 🎧 Listening
+
               Correct  Wrong  Skipped  Total  Progress
 ──────────────────────────────────────────────────────────────────────────────────────────
 Section 1         153     97       20    270  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   56.67%
 
 📋 Recent Activity
+
 Date       Skill         Title                                          Score  Time
 ───────────────────────────────────────────────────────────────────────────────────
-26.6.12    Reading       -                                             69.23%     -
-26.6.11    Reading       -                                             69.23%     -
-26.6.9     Reading       -                                             46.15%     -
-26.6.8     Listening     -                                             80.00%     -
-26.6.5     Listening     -                                             80.00%     -
-26.6.2     Listening     -                                             40.00%     -
+26.6.12    Reading       The History of the Bar Code                   69.23%   35m
+26.6.11    Reading       The Rufous Hare-Wallaby                       69.23%   35m
+26.6.9     Reading       Communicating in Colour                       46.15%   41m
+26.6.8     Listening     Poppy Reserve                                 80.00%   21m
+26.6.5     Listening     Car Club Scheme                               80.00%   21m
+26.6.2     Listening     Society Applicant Form                        40.00%   16m
 ```
 <!-- YOUPASS:END -->
 
