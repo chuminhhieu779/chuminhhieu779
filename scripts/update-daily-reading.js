@@ -236,12 +236,16 @@ function formatDailyReading(data) {
     fitStart("New Vocab", widths.vocab),
   ].join("  ");
 
-  const rows = entries.map((entry) => [
-    fitEnd(entry.date, widths.date),
-    fitEnd(entry.topic, widths.topic),
-    fitEnd(entry.article, widths.article),
-    fitStart(`${entry.vocab} ${entry.vocab === 1 ? "word" : "words"}`, widths.vocab),
-  ].join("  "));
+  const rows = entries.flatMap((entry, index) => {
+    const row = [
+      fitEnd(entry.date, widths.date),
+      fitEnd(entry.topic, widths.topic),
+      fitEnd(entry.article, widths.article),
+      fitStart(`${entry.vocab} ${entry.vocab === 1 ? "word" : "words"}`, widths.vocab),
+    ].join("  ");
+
+    return index > 0 ? ["", row] : [row];
+  });
 
   return [
     "```text",

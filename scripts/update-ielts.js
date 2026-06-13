@@ -473,7 +473,11 @@ function formatActivity(activityItems) {
   lines.push(header);
   lines.push("─".repeat(Math.max(64, header.length)));
 
-  for (const row of rows) {
+  rows.forEach((row, index) => {
+    if (index > 0) {
+      lines.push("");
+    }
+
     lines.push(
       [
         fitEnd(row.date, widths.date),
@@ -483,7 +487,7 @@ function formatActivity(activityItems) {
         fitStart(row.time, widths.time),
       ].join("  "),
     );
-  }
+  });
 
   return lines.join("\n");
 }
