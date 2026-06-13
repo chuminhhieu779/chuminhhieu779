@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #1a1b26; padding: 24px; }
+  .card {
+    background: #1e2030;
+    border: 1px solid #2a2b3d;
+    border-radius: 12px;
+    padding: 22px 26px;
+    color: #cdd6f4;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 2;
+    width: 760px;
+    white-space: pre;
+  }
+</style>
+</head>
+<body>
+<div class="card" id="out"></div>
+<script>
+const F = '⣿', E = '⣀', N = 16;
+const bar = p => F.repeat(Math.round(p/100*N)) + E.repeat(N - Math.round(p/100*N));
+const pr  = (s, l) => (String(s) + ' '.repeat(l)).slice(0, l);
+const pl  = (s, l) => (' '.repeat(l) + String(s)).slice(-l);
+
+function fmtDate(iso) {
+  const d = new Date(iso);
+  return `${String(d.getFullYear()).slice(2)}.${d.getMonth()+1}.${d.getDate()}`;
+}
+
+const SEP = '─'.repeat(80);
+
+const stats = [
+  {
+    head: '📖 Reading',
+    rows: [
+      { name: 'Passage 1', ok: 275, fail: 132, skip: 9,  total: 416, pct: 66.11 },
+      { name: 'Passage 2', ok: 180, fail: 60,  skip: 10, total: 250, pct: 72.00 },
+      { name: 'Passage 3', ok: 116, fail: 74,  skip: 10, total: 200, pct: 58.00 },
+    ]
+  },
+  {
+    head: '🎧 Listening',
+    rows: [
+      { name: 'Section 1', ok: 153, fail: 97, skip: 20, total: 270, pct: 56.67 },
+      { name: 'Section 2', ok: 144, fail: 46, skip: 10, total: 200, pct: 72.00 },
+    ]
+  },
+];
+
+const activity = [
+  { date: '2026-06-12', skill: 'Reading',   title: 'The History of the Bar Code',          pct: 69.23, time: '34m' },
+  { date: '2026-06-08', skill: 'Listening', title: 'Poppy Reserve',                        pct: 80.00, time: '21m' },
+  { date: '2026-06-11', skill: 'Reading',   title: 'The Rufous Hare-Wallaby',               pct: 69.23, time: '35m' },
+  { date: '2026-06-09', skill: 'Reading',   title: 'Communicating in Colour',               pct: 46.15, time: '40m' },
+  { date: '2026-06-05', skill: 'Listening', title: 'Car Club Scheme',                       pct: 80.00, time: '20m' },
+  { date: '2026-06-05', skill: 'Reading',   title: 'The History of Modern American Dance',  pct: 61.54, time: '30m' },
+];
+
+let out = '';
+
+// Stats
+stats.forEach((skill, si) => {
+  if (si > 0) out += '\n';
+  out += skill.head + '\n';
+  out += pr('', 12) + pl('Correct',9) + pl('Wrong',7) + pl('Skipped',9) + pl('Total',7) + '   Progress\n';
+  out += SEP + '\n';
+  skill.rows.forEach(r => {
+    out += pr(r.name, 12)
+         + pl(r.ok,   9)
+         + pl(r.fail, 7)
+         + pl(r.skip, 9)
+         + pl(r.total,7)
+         + '   ' + bar(r.pct)
+         + '   ' + pl(r.pct.toFixed(2)+'%', 7)
+         + '\n';
+  });
+});
+
+// Recent Activity
+out += '\n';
+out += '📋 Recent Activity\n';
+out += pr('Date', 9) + pr('Skill', 12) + pr('Title', 42) + pl('Score', 8) + '   Time\n';
+out += SEP + '\n';
+activity.forEach(a => {
+  out += pr(fmtDate(a.date), 9)
+       + pr(a.skill, 12)
+       + pr(a.title, 42)
+       + pl(a.pct.toFixed(2)+'%', 8)
+       + '   ' + a.time
+       + '\n';
+});
+
+document.getElementById('out').textContent = out;
+</script>
+</body>
+</html>
