@@ -9,6 +9,7 @@ const END_TAG = "<!-- YOUPASS:END -->";
 const BAR_WIDTH = 25;
 const ACTIVITY_PAGE_SIZE = 3;
 const ACTIVITY_LIMIT = Number(process.env.YOUPASS_ACTIVITY_LIMIT || 10);
+const TABLE_SEPARATOR_WIDTH = 90;
 
 const SKILLS = [
   { id: 1, name: "Reading", icon: "📖", unit: "Passage" },
@@ -404,7 +405,7 @@ function formatSkill(skill, items) {
 
   lines.push("");
   lines.push(header);
-  lines.push("─".repeat(Math.max(64, header.length + BAR_WIDTH + widths.percent + 4)));
+  lines.push("─".repeat(Math.max(TABLE_SEPARATOR_WIDTH, header.length + BAR_WIDTH + widths.percent + 4)));
 
   for (const row of rows) {
     lines.push(
@@ -466,12 +467,13 @@ function formatActivity(activityItems) {
     fitEnd("Skill", widths.skill),
     fitEnd("Title", widths.title),
     fitStart("Score", widths.score),
+    "",
     fitStart("Time", widths.time),
-  ].join("  ");
+  ].join("   ");
 
   lines.push("");
   lines.push(header);
-  lines.push("─".repeat(Math.max(64, header.length)));
+  lines.push("─".repeat(Math.max(TABLE_SEPARATOR_WIDTH, header.length)));
 
   rows.forEach((row, index) => {
     if (index > 0) {
@@ -484,8 +486,9 @@ function formatActivity(activityItems) {
         fitEnd(row.skill, widths.skill),
         fitEnd(row.title, widths.title),
         fitStart(row.percent, widths.score),
+        "",
         fitStart(row.time, widths.time),
-      ].join("  "),
+      ].join("   "),
     );
   });
 
@@ -495,10 +498,11 @@ function formatActivity(activityItems) {
 function formatStats(skillResults, activityItems = []) {
   return [
     "```text",
-    [
-      skillResults.map(({ skill, items }) => formatSkill(skill, items)).join("\n\n"),
-      formatActivity(activityItems),
-    ].join("\n\n"),
+    skillResults.map(({ skill, items }) => formatSkill(skill, items)).join("\n\n"),
+    "```",
+    "",
+    "```text",
+    formatActivity(activityItems),
     "```",
   ].join("\n");
 }
