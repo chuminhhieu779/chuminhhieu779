@@ -3,7 +3,7 @@ name: Update IELTS Stats
 on:
   schedule:
     # 00:00 UTC = 07:00 Vietnam time
-    - cron: "0 0 * * *"
+  - cron: "0 */12 * * *" # every 6 hours
   workflow_dispatch:
 
 permissions:
