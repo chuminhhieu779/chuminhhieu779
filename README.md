@@ -28,10 +28,10 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 49 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 50 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 611 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 628 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
 </p>
 <!-- YOUPASS_BADGES:END -->
