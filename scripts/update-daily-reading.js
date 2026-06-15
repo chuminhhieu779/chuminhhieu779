@@ -170,7 +170,7 @@ function gitCommitInfo(filePath, cwd) {
   }
 }
 
-async function chooseMarkdownFile(sourcePath) {
+async function chooseMarkdownFile(sourcePath, requestedFileName = process.env.DAILY_READING_FILE) {
   const stat = await fs.stat(sourcePath);
   if (stat.isFile()) {
     return sourcePath;
@@ -181,10 +181,10 @@ async function chooseMarkdownFile(sourcePath) {
     throw new Error(`No markdown files found in ${sourcePath}.`);
   }
 
-  if (process.env.DAILY_READING_FILE) {
-    const requested = files.find((file) => path.basename(file) === process.env.DAILY_READING_FILE);
+  if (requestedFileName) {
+    const requested = files.find((file) => path.basename(file) === requestedFileName);
     if (!requested) {
-      throw new Error(`Could not find ${process.env.DAILY_READING_FILE} in ${sourcePath}.`);
+      throw new Error(`Could not find ${requestedFileName} in ${sourcePath}.`);
     }
 
     return requested;
@@ -217,7 +217,7 @@ async function markdownEntry(markdownPath, sourceRoot) {
   };
 }
 
-async function loadDailyReadingData(sourcePath) {
+async function loadDailyLearningData(sourcePath, fileName = process.env.DAILY_READING_FILE) {
   const stat = await fs.stat(sourcePath);
 
   if (stat.isFile() && sourcePath.toLowerCase().endsWith(".json")) {
@@ -228,8 +228,8 @@ async function loadDailyReadingData(sourcePath) {
     return [await markdownEntry(sourcePath, path.dirname(sourcePath))];
   }
 
-  if (process.env.DAILY_READING_FILE) {
-    return [await markdownEntry(await chooseMarkdownFile(sourcePath), sourcePath)];
+  if (fileName) {
+    return [await markdownEntry(await chooseMarkdownFile(sourcePath, fileName), sourcePath)];
   }
 
   const files = await listMarkdownFiles(sourcePath);
@@ -251,7 +251,7 @@ async function loadDailyReadingData(sourcePath) {
   );
 }
 
-function formatDailyReading(data) {
+function formatDailyLearning(data, heading = "📰 Daily Reading", titleHeader = "Article") {
   const entries = normalizeEntries(data);
   const widths = {
     date: 9,
@@ -263,7 +263,7 @@ function formatDailyReading(data) {
   const header = [
     fitEnd("Date", widths.date),
     fitEnd("Topic", widths.topic),
-    fitEnd("Article", widths.article),
+    fitEnd(titleHeader, widths.article),
     fitStart("New Vocab", widths.vocab),
   ].join("  ");
 
@@ -280,7 +280,7 @@ function formatDailyReading(data) {
 
   return [
     "```text",
-    "📰 Daily Reading",
+    heading,
     "",
     header,
     "─".repeat(Math.max(TABLE_SEPARATOR_WIDTH, header.length)),
@@ -289,33 +289,37 @@ function formatDailyReading(data) {
   ].join("\n");
 }
 
-function replaceTaggedSection(readme, content) {
-  if (!readme.includes(START_TAG) || !readme.includes(END_TAG)) {
-    throw new Error(`README must contain both ${START_TAG} and ${END_TAG}.`);
+function formatDailyReading(data) {
+  return formatDailyLearning(data, "📰 Daily Reading");
+}
+
+function replaceTaggedSection(readme, content, startTag = START_TAG, endTag = END_TAG) {
+  if (!readme.includes(startTag) || !readme.includes(endTag)) {
+    throw new Error(`README must contain both ${startTag} and ${endTag}.`);
   }
 
-  const startIndex = readme.indexOf(START_TAG);
-  const endIndex = readme.indexOf(END_TAG);
+  const startIndex = readme.indexOf(startTag);
+  const endIndex = readme.indexOf(endTag);
 
   if (startIndex > endIndex) {
-    throw new Error(`${START_TAG} must appear before ${END_TAG}.`);
+    throw new Error(`${startTag} must appear before ${endTag}.`);
   }
 
   return [
     readme.slice(0, startIndex),
-    START_TAG,
+    startTag,
     "\n",
     content,
     "\n",
-    END_TAG,
-    readme.slice(endIndex + END_TAG.length),
+    endTag,
+    readme.slice(endIndex + endTag.length),
   ].join("");
 }
 
 async function updateReadme() {
   const readmePath = path.resolve(process.env.README_PATH || "README.md");
   const dataPath = path.resolve(process.env.DAILY_READING_PATH || DEFAULT_DATA_PATH);
-  const data = await loadDailyReadingData(dataPath);
+  const data = await loadDailyLearningData(dataPath);
   const readme = await fs.readFile(readmePath, "utf8");
   const nextReadme = replaceTaggedSection(readme, formatDailyReading(data));
 
@@ -338,8 +342,10 @@ if (process.argv.includes("--help") || process.argv.includes("-h")) {
 }
 
 module.exports = {
+  formatDailyLearning,
   formatDailyReading,
   formatDate,
+  loadDailyLearningData,
   normalizeEntry,
   normalizeEntries,
   replaceTaggedSection,

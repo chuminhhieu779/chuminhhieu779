@@ -84,6 +84,16 @@ Date       Topic          Article                                               
 ```
 <!-- DAILY_READING:END -->
 
+<!-- DAILY_WATCHING:START -->
+```text
+📺 Daily Watching
+
+Date       Topic          Title                                                  New Vocab
+────────────────────────────────────────────────────────────────────────────────────────────────────
+26.6.15    General        Some things just aren’t worth the price… (Epictetus)     0 words
+```
+<!-- DAILY_WATCHING:END -->
+
 <h2 align="center"> 🏆 Coding Activity & LeetCode 🏆 </h2>
 
 <!--START_SECTION:waka-->

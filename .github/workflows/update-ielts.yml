@@ -50,15 +50,20 @@ jobs:
           DAILY_READING_PATH: practice-english-daily/Reading
         run: node scripts/update-daily-reading.js
 
+      - name: Update Daily Watching
+        env:
+          DAILY_WATCHING_PATH: practice-english-daily/Watching Daily
+        run: node scripts/update-daily-watching.js
+
       - name: Commit and push changes
         run: |
-          if git diff --quiet README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/daily-reading.json; then
+          if git diff --quiet README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/daily-reading.json assets/daily-watching.json; then
             echo "No learning stats changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/daily-reading.json
+          git add README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/daily-reading.json assets/daily-watching.json
           git commit -m "Update learning stats [skip ci]"
           git push
