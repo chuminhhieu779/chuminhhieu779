@@ -170,6 +170,20 @@ function gitCommitInfo(filePath, cwd) {
   }
 }
 
+function gitCommitCount(filePath, cwd = process.cwd()) {
+  try {
+    const relativePath = path.relative(cwd, filePath);
+    const output = execFileSync("git", ["-C", cwd, "rev-list", "--count", "HEAD", "--", relativePath], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    }).trim();
+
+    return Number(output) || 0;
+  } catch {
+    return 0;
+  }
+}
+
 async function chooseMarkdownFile(sourcePath, requestedFileName = process.env.DAILY_READING_FILE) {
   const stat = await fs.stat(sourcePath);
   if (stat.isFile()) {
@@ -251,7 +265,18 @@ async function loadDailyLearningData(sourcePath, fileName = process.env.DAILY_RE
   );
 }
 
-function formatDailyLearning(data, heading = "📰 Daily Reading", titleHeader = "Article") {
+function formatHeading(heading, streakDays) {
+  const days = Number(streakDays);
+
+  if (!Number.isFinite(days) || days <= 0) {
+    return heading;
+  }
+
+  const roundedDays = Math.floor(days);
+  return `${heading}  ${roundedDays} ${roundedDays === 1 ? "day" : "days"} 🔥`;
+}
+
+function formatDailyLearning(data, heading = "📰 Daily Reading", titleHeader = "Article", streakDays = 0) {
   const entries = normalizeEntries(data);
   const widths = {
     date: 9,
@@ -280,7 +305,7 @@ function formatDailyLearning(data, heading = "📰 Daily Reading", titleHeader =
 
   return [
     "```text",
-    heading,
+    formatHeading(heading, streakDays),
     "",
     header,
     "─".repeat(Math.max(TABLE_SEPARATOR_WIDTH, header.length)),
@@ -289,8 +314,8 @@ function formatDailyLearning(data, heading = "📰 Daily Reading", titleHeader =
   ].join("\n");
 }
 
-function formatDailyReading(data) {
-  return formatDailyLearning(data, "📰 Daily Reading");
+function formatDailyReading(data, streakDays = 0) {
+  return formatDailyLearning(data, "📰 Daily Reading", "Article", streakDays);
 }
 
 function replaceTaggedSection(readme, content, startTag = START_TAG, endTag = END_TAG) {
@@ -321,7 +346,7 @@ async function updateReadme() {
   const dataPath = path.resolve(process.env.DAILY_READING_PATH || DEFAULT_DATA_PATH);
   const data = await loadDailyLearningData(dataPath);
   const readme = await fs.readFile(readmePath, "utf8");
-  const nextReadme = replaceTaggedSection(readme, formatDailyReading(data));
+  const nextReadme = replaceTaggedSection(readme, formatDailyReading(data, gitCommitCount(dataPath)));
 
   if (nextReadme === readme) {
     console.log("Daily Reading is already up to date.");
@@ -342,6 +367,7 @@ if (process.argv.includes("--help") || process.argv.includes("-h")) {
 }
 
 module.exports = {
+  gitCommitCount,
   formatDailyLearning,
   formatDailyReading,
   formatDate,
