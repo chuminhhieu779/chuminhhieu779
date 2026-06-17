@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require("node:fs/promises");
+const fsSync = require("node:fs");
 const { execFileSync } = require("node:child_process");
 const path = require("node:path");
 
@@ -170,7 +171,32 @@ function gitCommitInfo(filePath, cwd) {
   }
 }
 
-function gitCommitCount(filePath, cwd = process.cwd()) {
+function gitRootForPath(filePath) {
+  const candidates = [filePath];
+
+  try {
+    if (!fsSync.statSync(filePath).isDirectory()) {
+      candidates.unshift(path.dirname(filePath));
+    }
+  } catch {
+    candidates.unshift(path.dirname(filePath));
+  }
+
+  for (const candidate of candidates) {
+    try {
+      return execFileSync("git", ["-C", candidate, "rev-parse", "--show-toplevel"], {
+        encoding: "utf8",
+        stdio: ["ignore", "pipe", "ignore"],
+      }).trim();
+    } catch {
+      // Try the next candidate.
+    }
+  }
+
+  return process.cwd();
+}
+
+function gitCommitCount(filePath, cwd = gitRootForPath(filePath)) {
   try {
     const relativePath = path.relative(cwd, filePath);
     const output = execFileSync("git", ["-C", cwd, "rev-list", "--count", "HEAD", "--", relativePath], {
@@ -268,7 +294,7 @@ async function loadDailyLearningData(sourcePath, fileName = process.env.DAILY_RE
 function formatHeading(heading, streakDays) {
   const days = Number(streakDays);
 
-  if (!Number.isFinite(days) || days <= 0) {
+  if (streakDays === undefined || streakDays === null || !Number.isFinite(days) || days < 0) {
     return heading;
   }
 
@@ -276,7 +302,7 @@ function formatHeading(heading, streakDays) {
   return `${heading}  ${roundedDays} ${roundedDays === 1 ? "day" : "days"} 🔥`;
 }
 
-function formatDailyLearning(data, heading = "📰 Daily Reading", titleHeader = "Article", streakDays = 0) {
+function formatDailyLearning(data, heading = "📰 Daily Reading", titleHeader = "Article", streakDays) {
   const entries = normalizeEntries(data);
   const widths = {
     date: 9,
@@ -314,7 +340,7 @@ function formatDailyLearning(data, heading = "📰 Daily Reading", titleHeader =
   ].join("\n");
 }
 
-function formatDailyReading(data, streakDays = 0) {
+function formatDailyReading(data, streakDays) {
   return formatDailyLearning(data, "📰 Daily Reading", "Article", streakDays);
 }
 

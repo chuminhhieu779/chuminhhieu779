@@ -72,27 +72,25 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading
+📰 Daily Reading  1 day 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.6.16    agriculture    Have You Heard of the Extinct Banana?                   18 words
+26.6.13    Environment    Stars Are Disappearing From Sight                       32 words
 
-26.6.10    General        What Is Wind Energy?                                    15 words
+26.6.12    Lifestyle      Mediterranean Lifestyle Slashes Risk of Early Death     28 words
 
-26.6.9     General        10 Surprising Hamster Facts                             44 words
+26.6.11    History        Sky-Gazing Medieval Monks Shed Light on Volcanic Mys    35 words
 ```
 <!-- DAILY_READING:END -->
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching
+📺 Daily Watching  1 day 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.6.16    General        Stop Letting the World Ruin Your Peace                  59 words
-
-26.6.15    General        Some things just aren’t worth the price… (Epictetus)     0 words
+26.6.15    Philosophy     Some things just aren’t worth the price… (Epictetus)     0 words
 ```
 <!-- DAILY_WATCHING:END -->
 
