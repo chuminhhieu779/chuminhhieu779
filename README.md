@@ -28,10 +28,10 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 51 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 52 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 628 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 659 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
 </p>
 <!-- YOUPASS_BADGES:END -->
@@ -72,7 +72,7 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  16 days 🔥
+📰 Daily Reading  11 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -86,7 +86,7 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  5 days 🔥
+📺 Daily Watching  3 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
