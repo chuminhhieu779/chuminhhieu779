@@ -42,7 +42,7 @@
 
                 Correct    Wrong    Skipped    Total    Progress
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-Passage 1           275      132          9      416    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.11%
+Passage 1           285      135          9      429    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.43%
 
 🎧 Listening
 
@@ -56,11 +56,11 @@ Section 1           153       97         20      270    ⣿⣿⣿⣿⣿⣿⣿⣿
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.6.17     Reading        Book review: Triumph of the City               76.92%       40m
+
 26.6.12     Reading        The History of the Bar Code                    69.23%       35m
 
 26.6.11     Reading        The Rufous Hare-Wallaby                        69.23%       35m
-
-26.6.9      Reading        Communicating in Colour                        46.15%       41m
 
 26.6.8      Listening      Poppy Reserve                                  80.00%       21m
 
@@ -86,10 +86,12 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  3 days 🔥
+📺 Daily Watching  5 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.6.17    Animal         How do snakes swallow animals so much bigger than th    47 words
+
 26.6.16    General        Stop Letting the World Ruin Your Peace                  59 words
 
 26.6.15    General        Some things just aren’t worth the price… (Epictetus)     0 words
