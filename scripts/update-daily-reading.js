@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const fs = require("node:fs/promises");
-const fsSync = require("node:fs");
 const { execFileSync } = require("node:child_process");
 const path = require("node:path");
 
@@ -171,43 +170,26 @@ function gitCommitInfo(filePath, cwd) {
   }
 }
 
-function gitRootForPath(filePath) {
-  const candidates = [filePath];
+async function countDailyLearningDays(sourcePath, fileName = process.env.DAILY_READING_FILE) {
+  const stat = await fs.stat(sourcePath);
 
-  try {
-    if (!fsSync.statSync(filePath).isDirectory()) {
-      candidates.unshift(path.dirname(filePath));
-    }
-  } catch {
-    candidates.unshift(path.dirname(filePath));
+  if (stat.isFile() && sourcePath.toLowerCase().endsWith(".json")) {
+    const data = JSON.parse(await fs.readFile(sourcePath, "utf8"));
+    const entries = Array.isArray(data) ? data : data?.items ?? [data];
+    return new Set(entries.map((entry) => normalizeEntry(entry).date).filter(Boolean)).size;
   }
 
-  for (const candidate of candidates) {
-    try {
-      return execFileSync("git", ["-C", candidate, "rev-parse", "--show-toplevel"], {
-        encoding: "utf8",
-        stdio: ["ignore", "pipe", "ignore"],
-      }).trim();
-    } catch {
-      // Try the next candidate.
-    }
+  if (stat.isFile()) {
+    return 1;
   }
 
-  return process.cwd();
-}
-
-function gitCommitCount(filePath, cwd = gitRootForPath(filePath)) {
-  try {
-    const relativePath = path.relative(cwd, filePath);
-    const output = execFileSync("git", ["-C", cwd, "rev-list", "--count", "HEAD", "--", relativePath], {
-      encoding: "utf8",
-      stdio: ["ignore", "pipe", "ignore"],
-    }).trim();
-
-    return Number(output) || 0;
-  } catch {
-    return 0;
+  if (fileName) {
+    return 1;
   }
+
+  const files = await listMarkdownFiles(sourcePath);
+  const entries = await Promise.all(files.map((file) => markdownEntry(file, sourcePath)));
+  return new Set(entries.map((entry) => entry.date).filter(Boolean)).size;
 }
 
 async function chooseMarkdownFile(sourcePath, requestedFileName = process.env.DAILY_READING_FILE) {
@@ -371,8 +353,9 @@ async function updateReadme() {
   const readmePath = path.resolve(process.env.README_PATH || "README.md");
   const dataPath = path.resolve(process.env.DAILY_READING_PATH || DEFAULT_DATA_PATH);
   const data = await loadDailyLearningData(dataPath);
+  const streakDays = await countDailyLearningDays(dataPath);
   const readme = await fs.readFile(readmePath, "utf8");
-  const nextReadme = replaceTaggedSection(readme, formatDailyReading(data, gitCommitCount(dataPath)));
+  const nextReadme = replaceTaggedSection(readme, formatDailyReading(data, streakDays));
 
   if (nextReadme === readme) {
     console.log("Daily Reading is already up to date.");
@@ -393,7 +376,7 @@ if (process.argv.includes("--help") || process.argv.includes("-h")) {
 }
 
 module.exports = {
-  gitCommitCount,
+  countDailyLearningDays,
   formatDailyLearning,
   formatDailyReading,
   formatDate,

@@ -3,8 +3,8 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
 const {
+  countDailyLearningDays,
   formatDailyLearning,
-  gitCommitCount,
   loadDailyLearningData,
   replaceTaggedSection,
 } = require("./update-daily-reading.js");
@@ -17,10 +17,11 @@ async function updateReadme() {
   const readmePath = path.resolve(process.env.README_PATH || "README.md");
   const dataPath = path.resolve(process.env.DAILY_WATCHING_PATH || DEFAULT_DATA_PATH);
   const data = await loadDailyLearningData(dataPath, process.env.DAILY_WATCHING_FILE);
+  const streakDays = await countDailyLearningDays(dataPath, process.env.DAILY_WATCHING_FILE);
   const readme = await fs.readFile(readmePath, "utf8");
   const nextReadme = replaceTaggedSection(
     readme,
-    formatDailyLearning(data, "📺 Daily Watching", "Title", gitCommitCount(dataPath)),
+    formatDailyLearning(data, "📺 Daily Watching", "Title", streakDays),
     START_TAG,
     END_TAG,
   );
