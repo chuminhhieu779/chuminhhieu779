@@ -72,15 +72,15 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  11 days 🔥
+📰 Daily Reading  12 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.6.19    Animal         How To Get Rid of Skunk Smell, According to Chemists    37 words
+
 26.6.16    agriculture    Have You Heard of the Extinct Banana?                   18 words
 
 26.6.10    General        What Is Wind Energy?                                    15 words
-
-26.6.9     General        10 Surprising Hamster Facts                             44 words
 ```
 <!-- DAILY_READING:END -->
 
