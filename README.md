@@ -28,7 +28,7 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 52 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 53 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
   <img src="assets/vocab-learned.svg" alt="Vocab Learned: 659 words" />
@@ -42,7 +42,7 @@
 
                 Correct    Wrong    Skipped    Total    Progress
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-Passage 1           285      135          9      429    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.43%
+Passage 1           292      141          9      442    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.06%
 
 🎧 Listening
 
@@ -56,11 +56,11 @@ Section 1           153       97         20      270    ⣿⣿⣿⣿⣿⣿⣿⣿
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.6.22     Reading        The Rise and Fall of Detective Stories         53.85%       38m
+
 26.6.17     Reading        Book review: Triumph of the City               76.92%       40m
 
 26.6.12     Reading        The History of the Bar Code                    69.23%       35m
-
-26.6.11     Reading        The Rufous Hare-Wallaby                        69.23%       35m
 
 26.6.8      Listening      Poppy Reserve                                  80.00%       21m
 
@@ -72,15 +72,15 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  12 days 🔥
+📰 Daily Reading  13 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.6.22    Novel          Lord Of The Truth - Chapter 4                           18 words
+
 26.6.19    Animal         How To Get Rid of Skunk Smell, According to Chemists    37 words
 
 26.6.16    agriculture    Have You Heard of the Extinct Banana?                   18 words
-
-26.6.10    General        What Is Wind Energy?                                    15 words
 ```
 <!-- DAILY_READING:END -->
 
