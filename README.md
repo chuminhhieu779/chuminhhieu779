@@ -72,15 +72,15 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  13 days 🔥
+📰 Daily Reading  14 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.6.27    General        Lord Of The Truth - Chapter 5                           11 words
+
 26.6.22    Novel          Lord Of The Truth - Chapter 4                           18 words
 
 26.6.19    Animal         How To Get Rid of Skunk Smell, According to Chemists    37 words
-
-26.6.16    agriculture    Have You Heard of the Extinct Banana?                   18 words
 ```
 <!-- DAILY_READING:END -->
 
