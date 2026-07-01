@@ -98,7 +98,16 @@ Date       Topic          Title                                                 
 ```
 <!-- DAILY_WATCHING:END -->
 
-<h2 align="center"> 🏆 Coding Activity & LeetCode 🏆 </h2>
+<h2 align="center"> 📺 Latest YouTube Videos 📺 </h2>
+
+<div align="center">
+
+<!-- BEGIN YOUTUBE-CARDS -->
+<!-- END YOUTUBE-CARDS -->
+
+</div>
+
+<h2 align="center"> 🏆 Coding Activity 🏆 </h2>
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C402%20hrs%2022%20mins-blue?style=flat)
@@ -149,21 +158,4 @@ TypeScript               2 repos             ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀�
 </a>
 
 
-</div>
-
-<div align="center">
-  <img
-    src="https://leetcard.jacoblin.cool/suzune4869?ext=activity&theme=dark"
-    height="420"
-    alt="Suzune's LeetCode Activity"
-    style="
-      vertical-align: top;
-      margin-left: 12px;
-      border: 4px solid #ff79c6;
-      border-radius: 16px;
-      padding: 6px;
-      background: linear-gradient(145deg, #1a1b26, #282a36);
-      box-shadow: 0 0 20px rgba(255,121,198,0.6), 0 0 10px rgba(189,147,249,0.4);
-    "
-  />
 </div>
