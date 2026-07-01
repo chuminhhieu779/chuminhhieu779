@@ -103,6 +103,42 @@ Date       Topic          Title                                                 
 <div align="center">
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=AhRPlRFiGUs">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=AhRPlRFiGUs&title=What+SpongeBob+Understands+About+Life+%28That+You+Don%E2%80%99t%29&lang=en&timestamp=1774013412&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1739">
+    <img src="https://ytcards.demolab.com/?id=AhRPlRFiGUs&title=What+SpongeBob+Understands+About+Life+%28That+You+Don%E2%80%99t%29&lang=en&timestamp=1774013412&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1739" alt="What SpongeBob Understands About Life (That You Don’t)" title="What SpongeBob Understands About Life (That You Don’t)">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=QKIzRmYyDf4">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=QKIzRmYyDf4&title=Jimmy+Carr+Almost+Gets+a+Guy+to+Quit+His+Job+Mid-Show+%7C+Jimmy+Carr+Crowd+Work&lang=en&timestamp=1779465601&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=661">
+    <img src="https://ytcards.demolab.com/?id=QKIzRmYyDf4&title=Jimmy+Carr+Almost+Gets+a+Guy+to+Quit+His+Job+Mid-Show+%7C+Jimmy+Carr+Crowd+Work&lang=en&timestamp=1779465601&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=661" alt="Jimmy Carr Almost Gets a Guy to Quit His Job Mid-Show | Jimmy Carr Crowd Work" title="Jimmy Carr Almost Gets a Guy to Quit His Job Mid-Show | Jimmy Carr Crowd Work">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=SJeWnsfif4g">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=SJeWnsfif4g&title=Learn+REAL+English+Naturally+in+COLORADO%21+%28Comprehensible+Input%29&lang=en&timestamp=1778670045&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1243">
+    <img src="https://ytcards.demolab.com/?id=SJeWnsfif4g&title=Learn+REAL+English+Naturally+in+COLORADO%21+%28Comprehensible+Input%29&lang=en&timestamp=1778670045&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1243" alt="Learn REAL English Naturally in COLORADO! (Comprehensible Input)" title="Learn REAL English Naturally in COLORADO! (Comprehensible Input)">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=E0XnniP9PCk">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=E0XnniP9PCk&title=Why+Chasing+Happiness+is+Pointless+%28The+Hedonic+Treadmill%29&lang=en&timestamp=1707404424&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=903">
+    <img src="https://ytcards.demolab.com/?id=E0XnniP9PCk&title=Why+Chasing+Happiness+is+Pointless+%28The+Hedonic+Treadmill%29&lang=en&timestamp=1707404424&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=903" alt="Why Chasing Happiness is Pointless (The Hedonic Treadmill)" title="Why Chasing Happiness is Pointless (The Hedonic Treadmill)">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=yRmOWcWdQAo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1654">
+    <img src="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1654" alt="The First Punic War - OverSimplified (Part 1)" title="The First Punic War - OverSimplified (Part 1)">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=QpBcAu7eFnU">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1555">
+    <img src="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1555" alt="The new medical innovations that could change everything - The Engineers, BBC World Service" title="The new medical innovations that could change everything - The Engineers, BBC World Service">
+  </picture>
+</a>
 <!-- END YOUTUBE-CARDS -->
 
 </div>
