@@ -103,6 +103,18 @@ Date       Topic          Title                                                 
 <div align="center">
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=uimHoJ8qRBw">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=uimHoJ8qRBw&title=Xin+ch%C3%A0o+c%C3%A1c+th%E1%BB%A7+khoa&lang=en&timestamp=1782919577&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=12500">
+    <img src="https://ytcards.demolab.com/?id=uimHoJ8qRBw&title=Xin+ch%C3%A0o+c%C3%A1c+th%E1%BB%A7+khoa&lang=en&timestamp=1782919577&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=12500" alt="Xin chào các thủ khoa" title="Xin chào các thủ khoa">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=Y681hXWwhQY">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=Y681hXWwhQY&title=The+benefits+of+doing+nothing+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1686832116&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=380">
+    <img src="https://ytcards.demolab.com/?id=Y681hXWwhQY&title=The+benefits+of+doing+nothing+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1686832116&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=380" alt="The benefits of doing nothing ⏲️ 6 Minute English" title="The benefits of doing nothing ⏲️ 6 Minute English">
+  </picture>
+</a>
 <a href="https://www.youtube.com/watch?v=AhRPlRFiGUs">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=AhRPlRFiGUs&title=What+SpongeBob+Understands+About+Life+%28That+You+Don%E2%80%99t%29&lang=en&timestamp=1774013412&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1739">
@@ -125,18 +137,6 @@ Date       Topic          Title                                                 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=E0XnniP9PCk&title=Why+Chasing+Happiness+is+Pointless+%28The+Hedonic+Treadmill%29&lang=en&timestamp=1707404424&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=903">
     <img src="https://ytcards.demolab.com/?id=E0XnniP9PCk&title=Why+Chasing+Happiness+is+Pointless+%28The+Hedonic+Treadmill%29&lang=en&timestamp=1707404424&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=903" alt="Why Chasing Happiness is Pointless (The Hedonic Treadmill)" title="Why Chasing Happiness is Pointless (The Hedonic Treadmill)">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=yRmOWcWdQAo">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1654">
-    <img src="https://ytcards.demolab.com/?id=yRmOWcWdQAo&title=The+First+Punic+War+-+OverSimplified+%28Part+1%29&lang=en&timestamp=1662146110&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1654" alt="The First Punic War - OverSimplified (Part 1)" title="The First Punic War - OverSimplified (Part 1)">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=QpBcAu7eFnU">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=1555">
-    <img src="https://ytcards.demolab.com/?id=QpBcAu7eFnU&title=The+new+medical+innovations+that+could+change+everything+-+The+Engineers%2C+BBC+World+Service&lang=en&timestamp=1755086449&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=1555" alt="The new medical innovations that could change everything - The Engineers, BBC World Service" title="The new medical innovations that could change everything - The Engineers, BBC World Service">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
