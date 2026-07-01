@@ -98,7 +98,7 @@ Date       Topic          Title                                                 
 ```
 <!-- DAILY_WATCHING:END -->
 
-<h2 align="center"> 📺 Latest YouTube Videos 📺 </h2>
+<h2 align="center"> 📺 Watching English 📺 </h2>
 
 <div align="center">
 
