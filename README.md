@@ -28,10 +28,10 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 55 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 59 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 680 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 727 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
 </p>
 <!-- YOUPASS_BADGES:END -->
@@ -42,13 +42,13 @@
 
                 Correct    Wrong    Skipped    Total    Progress
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-Passage 1           292      141          9      442    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.06%
+Passage 1           319      153          9      481    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.32%
 
 🎧 Listening
 
                 Correct    Wrong    Skipped    Total    Progress
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-Section 1           153       97         20      270    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   56.67%
+Section 1           161       99         20      280    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   57.50%
 ```
 
 ```text
@@ -56,45 +56,45 @@ Section 1           153       97         20      270    ⣿⣿⣿⣿⣿⣿⣿⣿
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.6.22     Reading        The Rise and Fall of Detective Stories         53.85%       38m
+26.6.30     Reading        Urban farming                                  69.23%       37m
 
-26.6.17     Reading        Book review: Triumph of the City               76.92%       40m
+26.6.28     Listening      Manor Farm                                     80.00%       20m
 
-26.6.12     Reading        The History of the Bar Code                    69.23%       35m
+26.6.28     Reading        The life of Beatrix Potter                     61.54%       32m
+
+26.6.26     Reading        Trends in the Indian fashion and textile i     76.92%       41m
 
 26.6.8      Listening      Poppy Reserve                                  80.00%       21m
 
 26.6.5      Listening      Car Club Scheme                                80.00%       21m
-
-26.6.2      Listening      Society Applicant Form                         40.00%       16m
 ```
 <!-- YOUPASS:END -->
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  14 days 🔥
+📰 Daily Reading  15 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.1     Home and Desi  Stop Buying New Things: Swap, Share, Borrow Instead     19 words
+
 26.6.27    General        Lord Of The Truth - Chapter 5                           11 words
 
 26.6.22    Novel          Lord Of The Truth - Chapter 4                           18 words
-
-26.6.19    Animal         How To Get Rid of Skunk Smell, According to Chemists    37 words
 ```
 <!-- DAILY_READING:END -->
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  3 days 🔥
+📺 Daily Watching  4 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.1     Benefits        The benefits of doing nothing                          13 words
+
 26.6.17    Animal         How do snakes swallow animals so much bigger than th    47 words
 
 26.6.16    General        Stop Letting the World Ruin Your Peace                  59 words
-
-26.6.15    General        Some things just aren’t worth the price… (Epictetus)     0 words
 ```
 <!-- DAILY_WATCHING:END -->
 
