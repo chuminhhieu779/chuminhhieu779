@@ -31,7 +31,7 @@
   <img src="assets/ielts-streak.svg" alt="IELTS Streak: 59 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 727 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 726 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
 </p>
 <!-- YOUPASS_BADGES:END -->
