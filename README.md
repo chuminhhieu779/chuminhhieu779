@@ -146,28 +146,7 @@ Date       Topic          Title                                                 
 <h2 align="center"> 🏆 Coding Activity 🏆 </h2>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C448%20hrs%204%20mins-blue?style=flat)
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-Other                    15 hrs 3 mins       ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   25.55 % 
-Java                     13 hrs 57 mins      ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   23.70 % 
-Markdown                 11 hrs 27 mins      ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.46 % 
-SQL                      4 hrs 54 mins       ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   08.33 % 
-TypeScript               4 hrs 19 mins       ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   07.34 % 
-
-🔥 Editors: 
-Codex CLI                23 hrs 13 mins      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   39.43 % 
-IntelliJ IDEA            11 hrs 32 mins      ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.60 % 
-VS Code                  10 hrs 29 mins      ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   17.80 % 
-Antigravity CLI          10 hrs              ⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   17.00 % 
-WebStorm                 2 hrs 22 mins       ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.05 % 
-
-💻 Operating System: 
-Linux                    58 hrs 53 mins      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
-```
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C453%20hrs%2018%20mins-blue?style=flat)
 
 **I Mostly Code in Java** 
 
