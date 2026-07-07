@@ -86,15 +86,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  6 days 🔥
+📺 Daily Watching  7 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.6     Exercise       Exercise for the lazy                                   11 words
+
 26.7.5     Favorite Snac  What's your favourite snack?                            19 words
 
 26.7.2     Health          Are you drinking enough water?                          5 words
-
-26.7.1     Benefits        The benefits of doing nothing                          13 words
 ```
 <!-- DAILY_WATCHING:END -->
 
