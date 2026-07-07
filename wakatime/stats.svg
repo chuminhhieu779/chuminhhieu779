@@ -48,9 +48,9 @@
       Diamond Tier: <tspan font-size="10">#</tspan>301-1000
     </text>
     <rect x="160" y="65" width="160" height="8" fill="#9c8f80" rx="4" opacity="0.3"/>
-    <rect x="160" y="65" width="103.0117222723174" height="8" fill="#9c8f80" rx="4"/>
+    <rect x="160" y="65" width="115.63570784490531" height="8" fill="#9c8f80" rx="4"/>
     <text x="320" y="95" font-size="11" text-anchor="end" fill="#5f574f" font-family="Calibri">
-      47.6/73.9 hrs
+      53.4/73.9 hrs
     </text></g>
     </g>
 </svg>
