@@ -28,10 +28,10 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 59 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 62 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 726 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 738 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
 </p>
 <!-- YOUPASS_BADGES:END -->
@@ -42,7 +42,7 @@
 
                 Correct    Wrong    Skipped    Total    Progress
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-Passage 1           319      153          9      481    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.32%
+Passage 1           338      160          9      507    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.67%
 
 🎧 Listening
 
@@ -56,13 +56,13 @@ Section 1           161       99         20      280    ⣿⣿⣿⣿⣿⣿⣿⣿
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.8      Reading        Investing in the Future                       100.00%       25m
+
+26.7.5      Reading        Case Study: Tourism New Zealand website        46.15%       27m
+
 26.6.30     Reading        Urban farming                                  69.23%       37m
 
 26.6.28     Listening      Manor Farm                                     80.00%       20m
-
-26.6.28     Reading        The life of Beatrix Potter                     61.54%       32m
-
-26.6.26     Reading        Trends in the Indian fashion and textile i     76.92%       41m
 
 26.6.8      Listening      Poppy Reserve                                  80.00%       21m
 
