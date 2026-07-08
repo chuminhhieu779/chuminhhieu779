@@ -86,15 +86,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  7 days 🔥
+📺 Daily Watching  8 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.7     Read Book       Why read books, not screens                            14 words
+
 26.7.6     Exercise       Exercise for the lazy                                   11 words
 
 26.7.5     Favorite Snac  What's your favourite snack?                            19 words
-
-26.7.2     Health          Are you drinking enough water?                          5 words
 ```
 <!-- DAILY_WATCHING:END -->
 
