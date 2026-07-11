@@ -86,15 +86,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  9 days 🔥
+📺 Daily Watching  10 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.11    Cycling         Should we cycle more?                                   6 words
+
 26.7.9     Health         Why sitting is bad for health                            5 words
 
 26.7.7     Read Book       Why read books, not screens                            14 words
-
-26.7.6     Exercise       Exercise for the lazy                                   11 words
 ```
 <!-- DAILY_WATCHING:END -->
 
