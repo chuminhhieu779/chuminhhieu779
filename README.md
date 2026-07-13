@@ -86,15 +86,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  10 days 🔥
+📺 Daily Watching  11 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.12    Stress          Stress-free family meals                                5 words
+
 26.7.11    Cycling         Should we cycle more?                                   6 words
 
 26.7.9     Health         Why sitting is bad for health                            5 words
-
-26.7.7     Read Book       Why read books, not screens                            14 words
 ```
 <!-- DAILY_WATCHING:END -->
 
