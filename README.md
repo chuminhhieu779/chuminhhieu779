@@ -71,29 +71,29 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  15 days 🔥
+📰 Daily Reading  16 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.23    Manga          Lord of the truth - chapter 6                            5 words
+
 26.7.1     Home and Desi  Stop Buying New Things: Swap, Share, Borrow Instead     19 words
 
 26.6.27    General        Lord Of The Truth - Chapter 5                           11 words
-
-26.6.22    Novel          Lord Of The Truth - Chapter 4                           18 words
 ```
 <!-- DAILY_READING:END -->
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  11 days 🔥
+📺 Daily Watching  12 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.23    Flourishing     Are you flourishing?                                    3 words
+
+26.7.23    Brain          How reading shapes your brain                            4 words
+
 26.7.12    Stress          Stress-free family meals                                5 words
-
-26.7.11    Cycling         Should we cycle more?                                   6 words
-
-26.7.9     Health         Why sitting is bad for health                            5 words
 ```
 <!-- DAILY_WATCHING:END -->
 
