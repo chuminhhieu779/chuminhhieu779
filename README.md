@@ -85,15 +85,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  13 days 🔥
+📺 Daily Watching  14 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.7.28    Schools        Which country has the best schools?                      4 words
+
 26.7.27    AI              Can AI solve crime?                                     3 words
 
 26.7.27    Doomscrolling   Doomscrolling: Why do we do it                         30 words
-
-26.7.23    Flourishing     Are you flourishing?                                    3 words
 ```
 <!-- DAILY_WATCHING:END -->
 
