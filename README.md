@@ -147,8 +147,6 @@ Date       Topic          Title                                                 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C608%20hrs%2056%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-366%20hrs%2055%20mins-blue?style=flat)
-
 📊 **This Week I Spent My Time On** 
 
 ```text
@@ -169,6 +167,8 @@ DBeaver                  43 mins             ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 💻 Operating System: 
 Linux                    64 hrs 15 mins      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
 ```
+
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-366%20hrs%2055%20mins-blue?style=flat)
 
 🤖 **AI Coding This Week** 
 
