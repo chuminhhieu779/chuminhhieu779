@@ -145,55 +145,6 @@ Date       Topic          Title                                                 
 <h2 align="center"> 🏆 Coding Activity 🏆 </h2>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C608%20hrs%2056%20mins-blue?style=flat)
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-TypeScript               17 hrs 15 mins      ⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   26.85 % 
-Java                     15 hrs 33 mins      ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   24.22 % 
-Other                    8 hrs 30 mins       ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   13.24 % 
-CSS                      7 hrs 12 mins       ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.22 % 
-YAML                     6 hrs 35 mins       ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   10.27 % 
-
-🔥 Editors: 
-Codex CLI                31 hrs 39 mins      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   49.26 % 
-Antigravity CLI          16 hrs 2 mins       ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   24.96 % 
-IntelliJ IDEA            13 hrs 46 mins      ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.45 % 
-VS Code                  1 hr 43 mins        ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.68 % 
-DBeaver                  43 mins             ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.14 % 
-
-💻 Operating System: 
-Linux                    64 hrs 15 mins      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
-```
-
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-366%20hrs%2055%20mins-blue?style=flat)
-
-🤖 **AI Coding This Week** 
-
-```text
-⏱ AI Coding Time: 58 hrs 51 mins (91.6%)
-
-✍️ 21,289 lines written by AI, 445 lines written by hand (97.95% AI-written)
-
-🔤 323,957,691 Input Tokens, 935,704 Output Tokens
-
-💵 $1647.86 Estimated AI Cost This Week
-
-🧠 40 AI Sessions, 1789 AI Prompts
-
-GPT                      23,736 lines        ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀   97.92 % 
-Sonnet                   294 lines           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.21 % 
-Gemini                   210 lines           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.87 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 97.95% of written lines came from AI
-📝 Concise Prompter — average 239 characters per prompt
-🔁 Iterative Prompter — average 45 prompts per session
-🚀 High AI Trust — 6.47% of changed lines were hand-edited
-```
-
 **I Mostly Code in Java** 
 
 ```text
