@@ -102,6 +102,18 @@ Date       Topic          Title                                                 
 <div align="center">
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=wCgPjVzREqs">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=wCgPjVzREqs&title=How+the+world+learned+to+love+fast+food+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1737628811&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=375">
+    <img src="https://ytcards.demolab.com/?id=wCgPjVzREqs&title=How+the+world+learned+to+love+fast+food+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1737628811&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=375" alt="How the world learned to love fast food ⏲️ 6 Minute English" title="How the world learned to love fast food ⏲️ 6 Minute English">
+  </picture>
+</a>
+<a href="https://www.youtube.com/watch?v=JgB6-RWnV9M">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=JgB6-RWnV9M&title=Talking+about+travel%3A+%F0%9F%9A%B4%F0%9F%9A%97%F0%9F%9A%86+Real+Easy+English&lang=en&timestamp=1759658428&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=302">
+    <img src="https://ytcards.demolab.com/?id=JgB6-RWnV9M&title=Talking+about+travel%3A+%F0%9F%9A%B4%F0%9F%9A%97%F0%9F%9A%86+Real+Easy+English&lang=en&timestamp=1759658428&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=302" alt="Talking about travel: 🚴🚗🚆 Real Easy English" title="Talking about travel: 🚴🚗🚆 Real Easy English">
+  </picture>
+</a>
 <a href="https://www.youtube.com/watch?v=Xbv4IIqwW-4">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=Xbv4IIqwW-4&title=Which+country+has+the+best+schools%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1737021637&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=375">
@@ -124,18 +136,6 @@ Date       Topic          Title                                                 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=A-fzbRJY9pc&title=FAHRENHEIT+INDIGO+PROPHECY+Gameplay+Walkthrough+FULL+GAME+%284K+60FPS%29+No+Commentary&lang=en&timestamp=1784552417&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=18218">
     <img src="https://ytcards.demolab.com/?id=A-fzbRJY9pc&title=FAHRENHEIT+INDIGO+PROPHECY+Gameplay+Walkthrough+FULL+GAME+%284K+60FPS%29+No+Commentary&lang=en&timestamp=1784552417&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=18218" alt="FAHRENHEIT INDIGO PROPHECY Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary" title="FAHRENHEIT INDIGO PROPHECY Gameplay Walkthrough FULL GAME (4K 60FPS) No Commentary">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=0BrvT0FGuWc">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=0BrvT0FGuWc&title=Eng+DUB+Anime+%7C%7C++The+Most+Heretical+Last+Boss+Queen+in+Eng+Dub+full+episodes&lang=en&timestamp=1723058100&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=14670">
-    <img src="https://ytcards.demolab.com/?id=0BrvT0FGuWc&title=Eng+DUB+Anime+%7C%7C++The+Most+Heretical+Last+Boss+Queen+in+Eng+Dub+full+episodes&lang=en&timestamp=1723058100&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=14670" alt="Eng DUB Anime ||  The Most Heretical Last Boss Queen in Eng Dub full episodes" title="Eng DUB Anime ||  The Most Heretical Last Boss Queen in Eng Dub full episodes">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=_PIlvBI9rXY">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=_PIlvBI9rXY&title=How+reading+shapes+your+brain+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1778749501&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=374">
-    <img src="https://ytcards.demolab.com/?id=_PIlvBI9rXY&title=How+reading+shapes+your+brain+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1778749501&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="How reading shapes your brain ⏲️ 6 Minute English" title="How reading shapes your brain ⏲️ 6 Minute English">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
