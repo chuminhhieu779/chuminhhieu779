@@ -85,15 +85,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  17 days 🔥
+📺 Daily Watching  18 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.7     Anime          JobLess Reincarnation-2                                 12 words
+
 26.8.1     Anime          RealityQuest-1                                            1 word
 
 26.7.31    General        My Dream Home                                            8 words
-
-26.7.29    General        Anime                                                   26 words
 ```
 <!-- DAILY_WATCHING:END -->
 
