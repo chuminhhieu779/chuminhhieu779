@@ -70,9 +70,9 @@
       Bronze Tier: <tspan font-size="10">#</tspan>8001-10000
     </text>
     <rect x="160" y="65" width="160" height="8" fill="#9c8f80" rx="4" opacity="0.3"/>
-    <rect x="160" y="65" width="144.72193074501575" height="8" fill="#9c8f80" rx="4"/>
+    <rect x="160" y="65" width="145.17894736842106" height="8" fill="#9c8f80" rx="4"/>
     <text x="320" y="95" font-size="11" text-anchor="end" fill="#5f574f" font-family="Calibri">
-      14.4/15.9 hrs
+      14.4/15.8 hrs
     </text></g>
       </g>
 </svg>
