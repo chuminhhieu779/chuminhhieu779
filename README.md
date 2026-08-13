@@ -71,29 +71,29 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  16 days 🔥
+📰 Daily Reading  17 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.12    Books          LibraryForAll_Culturally_Relevant_Books                 25 words
+
 26.7.23    Manga          Lord of the truth - chapter 6                            5 words
 
 26.7.1     Home and Desi  Stop Buying New Things: Swap, Share, Borrow Instead     19 words
-
-26.6.27    General        Lord Of The Truth - Chapter 5                           11 words
 ```
 <!-- DAILY_READING:END -->
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  18 days 🔥
+📺 Daily Watching  19 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.12    Climate        How do climate scientists make predictions?             18 words
+
 26.8.7     Anime          JobLess Reincarnation-2                                 12 words
 
 26.8.1     Anime          RealityQuest-1                                            1 word
-
-26.7.31    General        My Dream Home                                            8 words
 ```
 <!-- DAILY_WATCHING:END -->
 
