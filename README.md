@@ -102,6 +102,12 @@ Date       Topic          Title                                                 
 <div align="center">
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=3hwEplr-g5w">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=3hwEplr-g5w&title=Should+we+eat+less+rice%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1741859790&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=370">
+    <img src="https://ytcards.demolab.com/?id=3hwEplr-g5w&title=Should+we+eat+less+rice%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1741859790&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=370" alt="Should we eat less rice? ⏲️ 6 Minute English" title="Should we eat less rice? ⏲️ 6 Minute English">
+  </picture>
+</a>
 <a href="https://www.youtube.com/watch?v=sv9DItmJvlI">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=sv9DItmJvlI&title=How+do+climate+scientists+make+predictions%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1786013419&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=376">
@@ -130,12 +136,6 @@ Date       Topic          Title                                                 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=WsKg6HsoDaw&title=Doomscrolling%3A+Why+do+we+do+it%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1675958430&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=381">
     <img src="https://ytcards.demolab.com/?id=WsKg6HsoDaw&title=Doomscrolling%3A+Why+do+we+do+it%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1675958430&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=381" alt="Doomscrolling: Why do we do it? ⏲️ 6 Minute English" title="Doomscrolling: Why do we do it? ⏲️ 6 Minute English">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=UNobPCDAcaA">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=UNobPCDAcaA&title=Are+you+flourishing%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1754558557&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=374">
-    <img src="https://ytcards.demolab.com/?id=UNobPCDAcaA&title=Are+you+flourishing%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1754558557&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="Are you flourishing? ⏲️ 6 Minute English" title="Are you flourishing? ⏲️ 6 Minute English">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
