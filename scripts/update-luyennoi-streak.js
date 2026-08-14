@@ -117,6 +117,10 @@ function startIso() {
   return date.toISOString();
 }
 
+function endIso() {
+  return new Date().toISOString();
+}
+
 function countActiveDays(items) {
   const activeDates = new Set(
     items
@@ -151,18 +155,22 @@ function replaceTaggedSection(readme, content) {
 }
 
 async function fetchResultsPage(accessToken, idToken, nextToken) {
+  const skStart = `${SK_PREFIX}${startIso()}`;
+  const skEnd = `${SK_PREFIX}${endIso()}`;
   const body = {
     name: "get-result-by-range-paginated",
     body: {
       pk: `USER#${USER_EMAIL}`,
-      skStart: `${SK_PREFIX}${startIso()}`,
-      skEnd: SK_PREFIX,
+      skStart,
+      skEnd,
     },
   };
 
   if (nextToken) {
     body.body.nextToken = nextToken;
   }
+
+  console.log(`Fetching Luyennoi results from ${skStart} to ${skEnd}.`);
 
   const response = await fetchWithTimeout(API_ENDPOINT, {
     method: "POST",
