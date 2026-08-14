@@ -42,6 +42,13 @@ jobs:
           YOUPASS_TOKEN: ${{ secrets.YOUPASS_TOKEN }}
         run: node scripts/update-vocab-badge.js
 
+      - name: Update Luyennoi streak badge
+        continue-on-error: true
+        env:
+          LUYENNOI_REFRESH_TOKEN: ${{ secrets.LUYENNOI_REFRESH_TOKEN }}
+          LUYENNOI_USER_EMAIL: ${{ secrets.LUYENNOI_USER_EMAIL }}
+        run: node scripts/update-luyennoi-streak.js
+
       - name: Update IELTS progress stats
         continue-on-error: true
         env:
@@ -60,13 +67,13 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          if git diff --quiet README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/daily-reading.json assets/daily-watching.json; then
+          if git diff --quiet README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/luyennoi-streak.svg assets/daily-reading.json assets/daily-watching.json; then
             echo "No learning stats changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/daily-reading.json assets/daily-watching.json
+          git add README.md assets/ielts-streak.svg assets/vocab-learned.svg assets/luyennoi-streak.svg assets/daily-reading.json assets/daily-watching.json
           git commit -m "Update learning stats [skip ci]"
           git push

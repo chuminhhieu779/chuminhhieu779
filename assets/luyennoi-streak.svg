@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="155" height="20" viewBox="0 0 155 20" role="img" aria-label="🔥 Luyennoi: 0 days">
+  <title>🔥 Luyennoi: 0 days</title>
+  <clipPath id="badge-radius">
+    <rect width="155" height="20" rx="4" ry="4" />
+  </clipPath>
+  <g clip-path="url(#badge-radius)">
+    <rect width="92" height="20" fill="#2d3436" />
+    <rect x="92" width="63" height="20" fill="#3C3489" />
+  </g>
+  <g fill="none" stroke="#3C3489">
+    <rect x="0.5" y="0.5" width="154" height="19" rx="3.5" ry="3.5" />
+  </g>
+  <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12" font-weight="600">
+    <text x="46" y="14" text-anchor="middle" fill="#f1f0fe">🔥 Luyennoi</text>
+    <text x="123.5" y="14" text-anchor="middle" fill="#ffffff">0 days</text>
+  </g>
+</svg>

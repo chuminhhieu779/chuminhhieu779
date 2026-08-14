@@ -34,6 +34,9 @@
   <!-- YOUPASS_VOCAB_BADGE:START -->
   <img src="assets/vocab-learned.svg" alt="Vocab Learned: 738 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
+  <!-- LUYENNOI_STREAK_BADGE:START -->
+  <img src="assets/luyennoi-streak.svg" alt="Luyennoi Streak: 0 days" />
+<!-- LUYENNOI_STREAK_BADGE:END -->
 </p>
 <!-- YOUPASS_BADGES:END -->
 
