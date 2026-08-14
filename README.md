@@ -75,7 +75,7 @@ Date        Skill          Title                                           Score
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.8.12    Books          LibraryForAll_Culturally_Relevant_Books                 25 words
+26.8.13    Books          LibraryForAll_Culturally_Relevant_Books                 38 words
 
 26.7.23    Manga          Lord of the truth - chapter 6                            5 words
 
@@ -85,15 +85,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  19 days 🔥
+📺 Daily Watching  20 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.13    Rice            Should we eat less rice                                14 words
+
+26.8.13    Anime          Love Is War                                              2 words
+
 26.8.12    Climate        How do climate scientists make predictions?             18 words
-
-26.8.7     Anime          JobLess Reincarnation-2                                 12 words
-
-26.8.1     Anime          RealityQuest-1                                            1 word
 ```
 <!-- DAILY_WATCHING:END -->
 
