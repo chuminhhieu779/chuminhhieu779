@@ -17,8 +17,10 @@
 
 <div align="center">
 
- <img src="https://my-readme-stats-eight.vercel.app/api?username=midori-suzune&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" height="170"/>
+<img src="https://my-readme-stats-eight.vercel.app/api?username=midori-suzune&theme=dracula&hide_border=false&include_all_commits=true&count_private=true" height="170" />
 <img src="https://streak-stats.demolab.com?user=midori-suzune&theme=dracula" height="170" alt="GitHub Streak" />
+<br />
+<img src="https://my-readme-stats-eight.vercel.app/api/top-langs/?username=midori-suzune&layout=compact&theme=dracula&hide_border=false" height="170" alt="Top Languages" />
 
 </div>
 
