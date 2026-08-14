@@ -29,10 +29,10 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 62 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 70 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 738 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 761 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
   <!-- LUYENNOI_STREAK_BADGE:START -->
   <img src="assets/luyennoi-streak.svg" alt="Luyennoi Streak: 0 days" />
@@ -46,11 +46,11 @@
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.7.8      Reading        Investing in the Future                       100.00%       25m
+26.8.14     Reading        The development of the London underground      84.62%       23m
 
-26.7.5      Reading        Case Study: Tourism New Zealand website        46.15%       27m
+26.7.30     Reading        Archaeologists discover evidence of prehis     76.92%       31m
 
-26.6.30     Reading        Urban farming                                  69.23%       37m
+26.7.23     Reading        The History of Glass                           38.46%       31m
 
 26.6.28     Listening      Manor Farm                                     80.00%       20m
 
