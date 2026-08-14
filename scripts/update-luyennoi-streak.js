@@ -169,7 +169,7 @@ async function fetchResultsPage(accessToken, idToken, nextToken) {
     headers: {
       Accept: "application/json",
       Authorization: `Bearer ${accessToken}`,
-      "Content-Type": "application/json",
+      "Content-Type": "text/plain;charset=UTF-8",
       Origin: "https://luyennoi.com",
       Referer: "https://luyennoi.com/",
       "x-id-token": idToken,
