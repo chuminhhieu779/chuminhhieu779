@@ -149,25 +149,35 @@ Date       Topic          Title                                                 
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-416%20hrs%2040%20mins-blue?style=flat)
 
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spent My Time On**
 
-💬 Programming Languages: 
-<svg width="720" viewBox="0 0 720 140" xmlns="http://www.w3.org/2000/svg"><text x="0" y="16" font-family="monospace" font-size="13" fill="#c9d1d9">Other</text><text x="170" y="16" font-family="monospace" font-size="13" fill="#8b949e">13 hrs 18 mins</text><rect x="280" y="6" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="6" width="249" height="8" rx="0" fill="#90CAF9"/><text x="648" y="16" font-family="monospace" font-size="12" fill="#8b949e">69.17%</text><text x="0" y="40" font-family="monospace" font-size="13" fill="#c9d1d9">TypeScript</text><text x="170" y="40" font-family="monospace" font-size="13" fill="#8b949e">2 hrs 37 mins</text><rect x="280" y="30" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="30" width="49" height="8" rx="0" fill="#90CAF9"/><text x="648" y="40" font-family="monospace" font-size="12" fill="#8b949e">13.63%</text><text x="0" y="64" font-family="monospace" font-size="13" fill="#c9d1d9">Markdown</text><text x="170" y="64" font-family="monospace" font-size="13" fill="#8b949e">1 hr 57 mins</text><rect x="280" y="54" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="54" width="37" height="8" rx="0" fill="#90CAF9"/><text x="648" y="64" font-family="monospace" font-size="12" fill="#8b949e">10.20%</text><text x="0" y="88" font-family="monospace" font-size="13" fill="#c9d1d9">JavaScript</text><text x="170" y="88" font-family="monospace" font-size="13" fill="#8b949e">31 mins</text><rect x="280" y="78" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="78" width="10" height="8" rx="0" fill="#90CAF9"/><text x="648" y="88" font-family="monospace" font-size="12" fill="#8b949e">2.71%</text><text x="0" y="112" font-family="monospace" font-size="13" fill="#c9d1d9">Java</text><text x="170" y="112" font-family="monospace" font-size="13" fill="#8b949e">23 mins</text><rect x="280" y="102" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="102" width="7" height="8" rx="0" fill="#90CAF9"/><text x="648" y="112" font-family="monospace" font-size="12" fill="#8b949e">2.07%</text></svg>
+```text
+💬 Programming Languages:
+Other        13 hrs 18 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   69.17%
+TypeScript    2 hrs 37 mins  ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   13.63%
+Markdown      1 hr 57 mins   ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   10.20%
+JavaScript       31 mins     ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀    2.71%
+Java             23 mins     ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀    2.07%
 
-🔥 Editors: 
-<svg width="720" viewBox="0 0 720 116" xmlns="http://www.w3.org/2000/svg"><text x="0" y="16" font-family="monospace" font-size="13" fill="#c9d1d9">Antigravity CLI</text><text x="170" y="16" font-family="monospace" font-size="13" fill="#8b949e">10 hrs 43 mins</text><rect x="280" y="6" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="6" width="201" height="8" rx="0" fill="#90CAF9"/><text x="648" y="16" font-family="monospace" font-size="12" fill="#8b949e">55.70%</text><text x="0" y="40" font-family="monospace" font-size="13" fill="#c9d1d9">Codex CLI</text><text x="170" y="40" font-family="monospace" font-size="13" fill="#8b949e">5 hrs 36 mins</text><rect x="280" y="30" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="30" width="105" height="8" rx="0" fill="#90CAF9"/><text x="648" y="40" font-family="monospace" font-size="12" fill="#8b949e">29.12%</text><text x="0" y="64" font-family="monospace" font-size="13" fill="#c9d1d9">VS Code</text><text x="170" y="64" font-family="monospace" font-size="13" fill="#8b949e">2 hrs 15 mins</text><rect x="280" y="54" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="54" width="42" height="8" rx="0" fill="#90CAF9"/><text x="648" y="64" font-family="monospace" font-size="12" fill="#8b949e">11.70%</text><text x="0" y="88" font-family="monospace" font-size="13" fill="#c9d1d9">IntelliJ IDEA</text><text x="170" y="88" font-family="monospace" font-size="13" fill="#8b949e">40 mins</text><rect x="280" y="78" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="78" width="13" height="8" rx="0" fill="#90CAF9"/><text x="648" y="88" font-family="monospace" font-size="12" fill="#8b949e">3.48%</text></svg>
+🔥 Editors:
+Antigravity CLI  10 hrs 43 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   55.70%
+Codex CLI         5 hrs 36 mins  ⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   29.12%
+VS Code           2 hrs 15 mins  ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.70%
+IntelliJ IDEA        40 mins     ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀    3.48%
 
-💻 Operating System: 
-<svg width="720" viewBox="0 0 720 44" xmlns="http://www.w3.org/2000/svg"><text x="0" y="16" font-family="monospace" font-size="13" fill="#c9d1d9">Linux</text><text x="170" y="16" font-family="monospace" font-size="13" fill="#8b949e">19 hrs 14 mins</text><rect x="280" y="6" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="6" width="360" height="8" rx="0" fill="#90CAF9"/><text x="648" y="16" font-family="monospace" font-size="12" fill="#8b949e">100.00%</text></svg>
+💻 Operating System:
+Linux            19 hrs 14 mins  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿  100.00%
+```
 
+**I Mostly Code in Java**
 
-**I Mostly Code in Java** 
-
-<svg width="720" viewBox="0 0 720 140" xmlns="http://www.w3.org/2000/svg"><text x="0" y="16" font-family="monospace" font-size="13" fill="#c9d1d9">Java</text><text x="170" y="16" font-family="monospace" font-size="13" fill="#8b949e">9 repos</text><rect x="280" y="6" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="6" width="180" height="8" rx="0" fill="#90CAF9"/><text x="648" y="16" font-family="monospace" font-size="12" fill="#8b949e">50.00%</text><text x="0" y="40" font-family="monospace" font-size="13" fill="#c9d1d9">HTML</text><text x="170" y="40" font-family="monospace" font-size="13" fill="#8b949e">5 repos</text><rect x="280" y="30" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="30" width="100" height="8" rx="0" fill="#90CAF9"/><text x="648" y="40" font-family="monospace" font-size="12" fill="#8b949e">27.78%</text><text x="0" y="64" font-family="monospace" font-size="13" fill="#c9d1d9">TypeScript</text><text x="170" y="64" font-family="monospace" font-size="13" fill="#8b949e">2 repos</text><rect x="280" y="54" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="54" width="40" height="8" rx="0" fill="#90CAF9"/><text x="648" y="64" font-family="monospace" font-size="12" fill="#8b949e">11.11%</text><text x="0" y="88" font-family="monospace" font-size="13" fill="#c9d1d9">JavaScript</text><text x="170" y="88" font-family="monospace" font-size="13" fill="#8b949e">1 repo</text><rect x="280" y="78" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="78" width="20" height="8" rx="0" fill="#90CAF9"/><text x="648" y="88" font-family="monospace" font-size="12" fill="#8b949e">5.56%</text><text x="0" y="112" font-family="monospace" font-size="13" fill="#c9d1d9">PHP</text><text x="170" y="112" font-family="monospace" font-size="13" fill="#8b949e">1 repo</text><rect x="280" y="102" width="360" height="8" rx="0" fill="#172f45"/><rect x="280" y="102" width="20" height="8" rx="0" fill="#90CAF9"/><text x="648" y="112" font-family="monospace" font-size="12" fill="#8b949e">5.56%</text></svg>
-
-
-
-
+```text
+Java        9 repos  ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   50.00%
+HTML        5 repos  ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   27.78%
+TypeScript  2 repos  ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.11%
+JavaScript  1 repo   ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀    5.56%
+PHP         1 repo   ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀    5.56%
+```
 <!--END_SECTION:waka-->
 
 <div align="center">
