@@ -498,10 +498,6 @@ function formatActivity(activityItems) {
 function formatStats(skillResults, activityItems = []) {
   return [
     "```text",
-    skillResults.map(({ skill, items }) => formatSkill(skill, items)).join("\n\n"),
-    "```",
-    "",
-    "```text",
     formatActivity(activityItems),
     "```",
   ].join("\n");

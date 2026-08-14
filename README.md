@@ -39,20 +39,6 @@
 
 <!-- YOUPASS:START -->
 ```text
-📖 Reading
-
-                Correct    Wrong    Skipped    Total    Progress
-────────────────────────────────────────────────────────────────────────────────────────────────────
-Passage 1           338      160          9      507    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀   66.67%
-
-🎧 Listening
-
-                Correct    Wrong    Skipped    Total    Progress
-────────────────────────────────────────────────────────────────────────────────────────────────────
-Section 1           161       99         20      280    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   57.50%
-```
-
-```text
 📋 Recent Activity
 
 Date        Skill          Title                                           Score      Time
