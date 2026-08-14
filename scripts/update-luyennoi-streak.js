@@ -13,6 +13,8 @@ const BADGE_PATH = "assets/luyennoi-streak.svg";
 const USER_EMAIL = process.env.LUYENNOI_USER_EMAIL;
 const SK_PREFIX = process.env.LUYENNOI_SK_PREFIX || "IELTS-SP1#";
 const START_DATE = process.env.LUYENNOI_STREAK_START_DATE || "2026-04-01";
+const REQUEST_TIMEOUT_MS = Number(process.env.LUYENNOI_REQUEST_TIMEOUT_MS || 15000);
+const MAX_PAGES = Number(process.env.LUYENNOI_MAX_PAGES || 20);
 
 function usage() {
   return [
@@ -36,8 +38,28 @@ function requiredEnv(name) {
   return value;
 }
 
+async function fetchWithTimeout(url, options = {}) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+  try {
+    return await fetch(url, {
+      ...options,
+      signal: controller.signal,
+    });
+  } catch (error) {
+    if (error.name === "AbortError") {
+      throw new Error(`Request timed out after ${REQUEST_TIMEOUT_MS}ms: ${url}`);
+    }
+
+    throw error;
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 async function refreshCognitoTokens(refreshToken) {
-  const response = await fetch(COGNITO_ENDPOINT, {
+  const response = await fetchWithTimeout(COGNITO_ENDPOINT, {
     method: "POST",
     headers: {
       "Content-Type": "application/x-amz-json-1.1",
@@ -142,7 +164,7 @@ async function fetchResultsPage(accessToken, idToken, nextToken) {
     body.body.nextToken = nextToken;
   }
 
-  const response = await fetch(API_ENDPOINT, {
+  const response = await fetchWithTimeout(API_ENDPOINT, {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -166,8 +188,21 @@ async function fetchResultsPage(accessToken, idToken, nextToken) {
 async function fetchResults(accessToken, idToken) {
   const items = [];
   let nextToken;
+  const seenTokens = new Set();
 
   do {
+    if (seenTokens.size >= MAX_PAGES) {
+      throw new Error(`Luyennoi pagination exceeded ${MAX_PAGES} pages.`);
+    }
+
+    if (nextToken && seenTokens.has(nextToken)) {
+      throw new Error("Luyennoi pagination returned a repeated nextToken.");
+    }
+
+    if (nextToken) {
+      seenTokens.add(nextToken);
+    }
+
     const data = await fetchResultsPage(accessToken, idToken, nextToken);
     items.push(...(Array.isArray(data?.items) ? data.items : []));
     nextToken = data?.nextToken || null;

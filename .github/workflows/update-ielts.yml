@@ -44,6 +44,7 @@ jobs:
 
       - name: Update Luyennoi streak badge
         continue-on-error: true
+        timeout-minutes: 2
         env:
           LUYENNOI_REFRESH_TOKEN: ${{ secrets.LUYENNOI_REFRESH_TOKEN }}
           LUYENNOI_USER_EMAIL: ${{ secrets.LUYENNOI_USER_EMAIL }}
