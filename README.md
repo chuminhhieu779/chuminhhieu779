@@ -76,15 +76,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  20 days 🔥
+📺 Daily Watching  21 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.15    Languages       Learning multiple languages                            22 words
+
 26.8.13    Rice            Should we eat less rice                                14 words
 
 26.8.13    Anime          Love Is War                                              2 words
-
-26.8.12    Climate        How do climate scientists make predictions?             18 words
 ```
 <!-- DAILY_WATCHING:END -->
 
