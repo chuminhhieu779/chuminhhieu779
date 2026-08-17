@@ -29,7 +29,7 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 70 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 71 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
   <img src="assets/vocab-learned.svg" alt="Vocab Learned: 761 words" />
@@ -46,6 +46,8 @@
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.17     Listening      General assistant job                          40.00%       32m
+
 26.8.14     Reading        The development of the London underground      84.62%       23m
 
 26.7.30     Reading        Archaeologists discover evidence of prehis     76.92%       31m
@@ -55,8 +57,6 @@ Date        Skill          Title                                           Score
 26.6.28     Listening      Manor Farm                                     80.00%       20m
 
 26.6.8      Listening      Poppy Reserve                                  80.00%       21m
-
-26.6.5      Listening      Car Club Scheme                                80.00%       21m
 ```
 <!-- YOUPASS:END -->
 
