@@ -46,13 +46,13 @@
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.17     Reading        What Lucy Taught Us                            84.62%       26m
+
 26.8.17     Listening      General assistant job                          40.00%       32m
 
 26.8.14     Reading        The development of the London underground      84.62%       23m
 
 26.7.30     Reading        Archaeologists discover evidence of prehis     76.92%       31m
-
-26.7.23     Reading        The History of Glass                           38.46%       31m
 
 26.6.28     Listening      Manor Farm                                     80.00%       20m
 
@@ -62,29 +62,29 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  17 days 🔥
+📰 Daily Reading  18 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.17    Articles       the-world-changes-when-society                          16 words
+
 26.8.13    Books          LibraryForAll_Culturally_Relevant_Books                 38 words
 
 26.7.23    Manga          Lord of the truth - chapter 6                            5 words
-
-26.7.1     Home and Desi  Stop Buying New Things: Swap, Share, Borrow Instead     19 words
 ```
 <!-- DAILY_READING:END -->
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  21 days 🔥
+📺 Daily Watching  22 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.17    Housework      Who does the housework?                                 17 words
+
 26.8.15    Languages       Learning multiple languages                            22 words
 
 26.8.13    Rice            Should we eat less rice                                14 words
-
-26.8.13    Anime          Love Is War                                              2 words
 ```
 <!-- DAILY_WATCHING:END -->
 
