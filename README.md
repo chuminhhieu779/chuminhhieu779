@@ -29,7 +29,7 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 72 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 73 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
   <img src="assets/vocab-learned.svg" alt="Vocab Learned: 965 words" />
@@ -46,6 +46,8 @@
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.19     Listening      Holiday on Jackson Island                      50.00%       13m
+
 26.8.18     Listening      Arizona Travel Advice                          60.00%       17m
 
 26.8.17     Reading        What Lucy Taught Us                            84.62%       26m
@@ -55,8 +57,6 @@ Date        Skill          Title                                           Score
 26.8.14     Reading        The development of the London underground      84.62%       23m
 
 26.7.30     Reading        Archaeologists discover evidence of prehis     76.92%       31m
-
-26.6.28     Listening      Manor Farm                                     80.00%       20m
 ```
 <!-- YOUPASS:END -->
 
