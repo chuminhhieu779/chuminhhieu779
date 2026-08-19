@@ -32,7 +32,7 @@
   <img src="assets/ielts-streak.svg" alt="IELTS Streak: 72 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 761 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 965 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
   <!-- LUYENNOI_STREAK_BADGE:START -->
   <img src="assets/luyennoi-streak.svg" alt="Luyennoi Streak: 3 days" />

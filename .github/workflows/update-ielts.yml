@@ -40,6 +40,7 @@ jobs:
         continue-on-error: true
         env:
           YOUPASS_TOKEN: ${{ secrets.YOUPASS_TOKEN }}
+          PRACTICE_DAILY_PATH: practice-english-daily
         run: node scripts/update-vocab-badge.js
 
       - name: Update Luyennoi streak badge
