@@ -76,15 +76,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  22 days 🔥
+📺 Daily Watching  23 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.18    Immune System   Can we boost the immune system?                        29 words
+
 26.8.17    Housework      Who does the housework?                                 17 words
 
 26.8.15    Languages       Learning multiple languages                            22 words
-
-26.8.13    Rice            Should we eat less rice                                14 words
 ```
 <!-- DAILY_WATCHING:END -->
 
