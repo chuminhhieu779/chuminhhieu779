@@ -32,7 +32,7 @@
   <img src="assets/ielts-streak.svg" alt="IELTS Streak: 73 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 1007 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 1016 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
   <!-- LUYENNOI_STREAK_BADGE:START -->
   <img src="assets/luyennoi-streak.svg" alt="Luyennoi Streak: 3 days" />
@@ -76,15 +76,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  23 days 🔥
+📺 Daily Watching  24 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.23    Smartphone     Keeping kids off smartphones                             8 words
+
 26.8.19    Immune System   Can we boost the immune system?                        29 words
 
 26.8.19    Immune System  Can we boost the immune system?                         29 words
-
-26.8.17    Housework      Who does the housework?                                 17 words
 ```
 <!-- DAILY_WATCHING:END -->
 
