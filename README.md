@@ -29,13 +29,13 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 73 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 76 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
   <img src="assets/vocab-learned.svg" alt="Vocab Learned: 1016 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
   <!-- LUYENNOI_STREAK_BADGE:START -->
-  <img src="assets/luyennoi-streak.svg" alt="Luyennoi Streak: 3 days" />
+  <img src="assets/luyennoi-streak.svg" alt="Luyennoi Streak: 4 days" />
 <!-- LUYENNOI_STREAK_BADGE:END -->
 </p>
 <!-- YOUPASS_BADGES:END -->
@@ -46,13 +46,13 @@
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.8.19     Listening      Holiday on Jackson Island                      50.00%       13m
+26.8.25     Listening      Temporary Patient Record Form                  80.00%       13m
 
-26.8.18     Listening      Arizona Travel Advice                          60.00%       17m
+26.8.24     Listening      House Insurance                                30.00%       19m
+
+26.8.22     Listening      Medical Arrangement                            50.00%       14m
 
 26.8.17     Reading        What Lucy Taught Us                            84.62%       26m
-
-26.8.17     Listening      General assistant job                          40.00%       32m
 
 26.8.14     Reading        The development of the London underground      84.62%       23m
 
@@ -80,7 +80,7 @@ Date       Topic          Article                                               
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.8.23    Smartphone     Keeping kids off smartphones                             8 words
+26.8.25    Smartphone     Keeping kids off smartphones                             8 words
 
 26.8.19    Immune System   Can we boost the immune system?                        29 words
 
