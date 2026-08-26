@@ -25,7 +25,11 @@ function usage() {
 }
 
 function fitEnd(value, width) {
-  return (String(value) + " ".repeat(width)).slice(0, width);
+  const str = String(value);
+  if (str.length > width) {
+    return str.slice(0, width - 1) + "…";
+  }
+  return (str + " ".repeat(width)).slice(0, width);
 }
 
 function fitStart(value, width) {
