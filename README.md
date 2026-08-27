@@ -29,10 +29,10 @@
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
   <!-- YOUPASS_STREAK_BADGE:START -->
-  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 77 days" />
+  <img src="assets/ielts-streak.svg" alt="IELTS Streak: 78 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
   <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 1066 words" />
+  <img src="assets/vocab-learned.svg" alt="Vocab Learned: 1091 words" />
 <!-- YOUPASS_VOCAB_BADGE:END -->
   <!-- LUYENNOI_STREAK_BADGE:START -->
   <img src="assets/luyennoi-streak.svg" alt="Luyennoi Streak: 4 days" />
@@ -46,11 +46,11 @@
 
 Date        Skill          Title                                           Score      Time
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.27     Listening      Pinder's Animal Park                           20.00%       15m
+
 26.8.26     Listening      Winsham Farm                                   70.00%       24m
 
 26.8.25     Listening      Temporary Patient Record Form                  80.00%       13m
-
-26.8.24     Listening      House Insurance                                30.00%       19m
 
 26.8.17     Reading        What Lucy Taught Us                            84.62%       26m
 
@@ -66,25 +66,25 @@ Date        Skill          Title                                           Score
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.27    General        Conservation Groups Sue Utah for Starving the Great…    38 words
+
 26.8.26    Soil           soil-as-a-public-good                                   29 words
 
 26.8.17    Articles       the-world-changes-when-society                          16 words
-
-26.8.13    Books          LibraryForAll_Culturally_Relevant_Books                 38 words
 ```
 <!-- DAILY_READING:END -->
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  24 days 🔥
+📺 Daily Watching  25 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.27    Hearing         What causes hearing loss?                              23 words
+
 26.8.25    Dancing        Dancing for the brain                                   13 words
 
 26.8.25    Smartphone     Keeping kids off smartphones                             8 words
-
-26.8.19    Immune System   Can we boost the immune system?                        29 words
 ```
 <!-- DAILY_WATCHING:END -->
 

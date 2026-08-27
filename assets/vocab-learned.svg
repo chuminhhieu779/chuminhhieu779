@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="167" height="20" viewBox="0 0 167 20" role="img" aria-label="Vocab: 1066 words">
-  <title>Vocab: 1066 words</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="167" height="20" viewBox="0 0 167 20" role="img" aria-label="Vocab: 1091 words">
+  <title>Vocab: 1091 words</title>
   <clipPath id="badge-radius">
     <rect width="167" height="20" rx="4" ry="4" />
   </clipPath>
@@ -12,6 +12,6 @@
   </g>
   <g font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="12" font-weight="600">
     <text x="26" y="14" text-anchor="middle" fill="#f1f0fe">Vocab</text>
-    <text x="109.5" y="14" text-anchor="middle" fill="#ffffff">1066 words</text>
+    <text x="109.5" y="14" text-anchor="middle" fill="#ffffff">1091 words</text>
   </g>
 </svg>
