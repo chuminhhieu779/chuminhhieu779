@@ -1,9 +1,9 @@
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Suzune!;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+ð;+I'm+Suzune!;" />
 </h1>
 <br/>
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
+<h2 align="center">âï¸ Languages-Frameworks-Tools âï¸</h2>
 <br/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=java,html,css,javascript,react,typescript" />
@@ -13,7 +13,7 @@
     <img src="https://cdn.simpleicons.org/swagger/85EA2D" height="48" />
     <img src="https://cdn.simpleicons.org/dbeaver/cfcfcf" height="48" />
 </div>
-<h2 align="center">⚡ GitHub Stats ⚡</h2>
+<h2 align="center">â¡ GitHub Stats â¡</h2>
 
 <div align="center">
 
@@ -24,7 +24,7 @@
 
 </div>
 
-<h2 align="center"> 📚 IELTS Progress 📚 </h2>
+<h2 align="center"> ð IELTS Progress ð </h2>
 
 <!-- YOUPASS_BADGES:START -->
 <p align="left">
@@ -46,10 +46,10 @@ Mastered: 94 words | Cultivation: Luyện Khí
 
 <!-- YOUPASS:START -->
 ```text
-📋 Recent Activity
+ð Recent Activity
 
 Date        Skill          Title                                           Score      Time
-────────────────────────────────────────────────────────────────────────────────────────────────────
+ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 26.8.27     Listening      Pinder's Animal Park                           20.00%       15m
 
 26.8.26     Listening      Winsham Farm                                   70.00%       24m
@@ -58,19 +58,19 @@ Date        Skill          Title                                           Score
 
 26.8.17     Reading        What Lucy Taught Us                            84.62%       26m
 
-26.8.14     Reading        The development of the London underground…     84.62%       23m
+26.8.14     Reading        The development of the London undergroundâ¦     84.62%       23m
 
-26.7.30     Reading        Archaeologists discover evidence of prehi…     76.92%       31m
+26.7.30     Reading        Archaeologists discover evidence of prehiâ¦     76.92%       31m
 ```
 <!-- YOUPASS:END -->
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  19 days 🔥
+ð° Daily Reading  19 days ð¥
 
 Date       Topic          Article                                                New Vocab
-────────────────────────────────────────────────────────────────────────────────────────────────────
-26.8.27    General        Conservation Groups Sue Utah for Starving the Great…    38 words
+ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+26.8.27    General        Conservation Groups Sue Utah for Starving the Greatâ¦    38 words
 
 26.8.26    Soil           soil-as-a-public-good                                   29 words
 
@@ -80,10 +80,10 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  25 days 🔥
+ðº Daily Watching  25 days ð¥
 
 Date       Topic          Title                                                  New Vocab
-────────────────────────────────────────────────────────────────────────────────────────────────────
+ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 26.8.27    Hearing         What causes hearing loss?                              23 words
 
 26.8.25    Dancing        Dancing for the brain                                   13 words
@@ -92,7 +92,7 @@ Date       Topic          Title                                                 
 ```
 <!-- DAILY_WATCHING:END -->
 
-<h2 align="center"> 📺 Watching English 📺 </h2>
+<h2 align="center"> ðº Watching English ðº </h2>
 
 <div align="center">
 
@@ -100,77 +100,77 @@ Date       Topic          Title                                                 
 <a href="https://www.youtube.com/watch?v=u6qppMAxD-0">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=u6qppMAxD-0&title=What+causes+hearing+loss%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1757579129&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=374">
-    <img src="https://ytcards.demolab.com/?id=u6qppMAxD-0&title=What+causes+hearing+loss%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1757579129&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="What causes hearing loss? ⏲️ 6 Minute English" title="What causes hearing loss? ⏲️ 6 Minute English">
+    <img src="https://ytcards.demolab.com/?id=u6qppMAxD-0&title=What+causes+hearing+loss%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1757579129&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="What causes hearing loss? â²ï¸ 6 Minute English" title="What causes hearing loss? â²ï¸ 6 Minute English">
   </picture>
 </a>
 <a href="https://www.youtube.com/watch?v=p0SUyXLS-ME">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=p0SUyXLS-ME&title=Dancing+for+the+brain+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1713448074&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=382">
-    <img src="https://ytcards.demolab.com/?id=p0SUyXLS-ME&title=Dancing+for+the+brain+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1713448074&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=382" alt="Dancing for the brain ⏲️ 6 Minute English" title="Dancing for the brain ⏲️ 6 Minute English">
+    <img src="https://ytcards.demolab.com/?id=p0SUyXLS-ME&title=Dancing+for+the+brain+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1713448074&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=382" alt="Dancing for the brain â²ï¸ 6 Minute English" title="Dancing for the brain â²ï¸ 6 Minute English">
   </picture>
 </a>
 <a href="https://www.youtube.com/watch?v=9hus12iCyL8">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=9hus12iCyL8&title=Can+we+boost+the+immune+system%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1743071427&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=374">
-    <img src="https://ytcards.demolab.com/?id=9hus12iCyL8&title=Can+we+boost+the+immune+system%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1743071427&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="Can we boost the immune system? ⏲️ 6 Minute English" title="Can we boost the immune system? ⏲️ 6 Minute English">
+    <img src="https://ytcards.demolab.com/?id=9hus12iCyL8&title=Can+we+boost+the+immune+system%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1743071427&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="Can we boost the immune system? â²ï¸ 6 Minute English" title="Can we boost the immune system? â²ï¸ 6 Minute English">
   </picture>
 </a>
 <a href="https://www.youtube.com/watch?v=D9jZMLm72a8">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=D9jZMLm72a8&title=Who+does+the+housework%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1786614118&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=374">
-    <img src="https://ytcards.demolab.com/?id=D9jZMLm72a8&title=Who+does+the+housework%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1786614118&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="Who does the housework? ⏲️ 6 Minute English" title="Who does the housework? ⏲️ 6 Minute English">
+    <img src="https://ytcards.demolab.com/?id=D9jZMLm72a8&title=Who+does+the+housework%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1786614118&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="Who does the housework? â²ï¸ 6 Minute English" title="Who does the housework? â²ï¸ 6 Minute English">
   </picture>
 </a>
 <a href="https://www.youtube.com/watch?v=9ifQ3xRz4hM">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=9ifQ3xRz4hM&title=Learning+multiple+languages+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1744275453&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=423">
-    <img src="https://ytcards.demolab.com/?id=9ifQ3xRz4hM&title=Learning+multiple+languages+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1744275453&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=423" alt="Learning multiple languages ⏲️ 6 Minute English" title="Learning multiple languages ⏲️ 6 Minute English">
+    <img src="https://ytcards.demolab.com/?id=9ifQ3xRz4hM&title=Learning+multiple+languages+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1744275453&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=423" alt="Learning multiple languages â²ï¸ 6 Minute English" title="Learning multiple languages â²ï¸ 6 Minute English">
   </picture>
 </a>
 <a href="https://www.youtube.com/watch?v=3hwEplr-g5w">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=3hwEplr-g5w&title=Should+we+eat+less+rice%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1741859790&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=370">
-    <img src="https://ytcards.demolab.com/?id=3hwEplr-g5w&title=Should+we+eat+less+rice%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1741859790&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=370" alt="Should we eat less rice? ⏲️ 6 Minute English" title="Should we eat less rice? ⏲️ 6 Minute English">
+    <img src="https://ytcards.demolab.com/?id=3hwEplr-g5w&title=Should+we+eat+less+rice%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1741859790&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=370" alt="Should we eat less rice? â²ï¸ 6 Minute English" title="Should we eat less rice? â²ï¸ 6 Minute English">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
 
 </div>
 
-<h2 align="center"> 🏆 Coding Activity 🏆 </h2>
+<h2 align="center"> ð Coding Activity ð </h2>
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C656%20hrs%205%20mins-blue?style=flat)
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-436%20hrs%2018%20mins-blue?style=flat)
 
-📊 **This Week I Spent My Time On** 
+ð **This Week I Spent My Time On** 
 
 ```text
-💬 Programming Languages: 
-Markdown                 4 hrs 32 mins       ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   47.02 % 
-TypeScript               3 hrs 6 mins        ⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   32.11 % 
-Other                    1 hr 5 mins         ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.34 % 
-JSON                     53 mins             ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   09.16 % 
-TSConfig                 1 min               ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.31 % 
+ð¬ Programming Languages: 
+Markdown                 4 hrs 32 mins       â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£   47.02 % 
+TypeScript               3 hrs 6 mins        â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   32.11 % 
+Other                    1 hr 5 mins         â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   11.34 % 
+JSON                     53 mins             â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   09.16 % 
+TSConfig                 1 min               â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   00.31 % 
 
-🔥 Editors: 
-VS Code                  5 hrs 36 mins       ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   58.12 % 
-Antigravity CLI          2 hrs 12 mins       ⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   22.83 % 
-Codex CLI                1 hr 50 mins        ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.06 % 
+ð¥ Editors: 
+VS Code                  5 hrs 36 mins       â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£   58.12 % 
+Antigravity CLI          2 hrs 12 mins       â£¿â£¿â£¿â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   22.83 % 
+Codex CLI                1 hr 50 mins        â£¿â£¿â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   19.06 % 
 
-💻 Operating System: 
-Linux                    9 hrs 39 mins       ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
+ð» Operating System: 
+Linux                    9 hrs 39 mins       â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿   100.00 % 
 ```
 
 **I Mostly Code in Java** 
 
 ```text
-Java                     9 repos             ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   50.00 % 
-HTML                     5 repos             ⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   27.78 % 
-TypeScript               2 repos             ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.11 % 
-JavaScript               1 repo              ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   05.56 % 
-PHP                      1 repo              ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   05.56 % 
+Java                     9 repos             â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£   50.00 % 
+HTML                     5 repos             â£¿â£¿â£¿â£¿â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   27.78 % 
+TypeScript               2 repos             â£¿â£¿â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   11.11 % 
+JavaScript               1 repo              â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   05.56 % 
+PHP                      1 repo              â£¿â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£â£   05.56 % 
 ```
 
 
