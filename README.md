@@ -31,9 +31,6 @@
   <!-- YOUPASS_STREAK_BADGE:START -->
   <img src="assets/ielts-streak.svg" alt="IELTS Streak: 78 days" />
 <!-- YOUPASS_STREAK_BADGE:END -->
-  <!-- YOUPASS_VOCAB_BADGE:START -->
-  <img src="assets/vocab-learned.svg" alt="Ranking: Luyện Khí" />
-<!-- YOUPASS_VOCAB_BADGE:END -->
   <!-- LUYENNOI_STREAK_BADGE:START -->
   <img src="assets/luyennoi-streak.svg" alt="Luyennoi Streak: 4 days" />
 <!-- LUYENNOI_STREAK_BADGE:END -->
