@@ -93,6 +93,12 @@ Date       Topic          Title                                                 
 <div align="center">
 
 <!-- BEGIN YOUTUBE-CARDS -->
+<a href="https://www.youtube.com/watch?v=u6qppMAxD-0">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=u6qppMAxD-0&title=What+causes+hearing+loss%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1757579129&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=374">
+    <img src="https://ytcards.demolab.com/?id=u6qppMAxD-0&title=What+causes+hearing+loss%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1757579129&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=374" alt="What causes hearing loss? ⏲️ 6 Minute English" title="What causes hearing loss? ⏲️ 6 Minute English">
+  </picture>
+</a>
 <a href="https://www.youtube.com/watch?v=p0SUyXLS-ME">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=p0SUyXLS-ME&title=Dancing+for+the+brain+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1713448074&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=382">
@@ -121,12 +127,6 @@ Date       Topic          Title                                                 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=3hwEplr-g5w&title=Should+we+eat+less+rice%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1741859790&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=370">
     <img src="https://ytcards.demolab.com/?id=3hwEplr-g5w&title=Should+we+eat+less+rice%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1741859790&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=370" alt="Should we eat less rice? ⏲️ 6 Minute English" title="Should we eat less rice? ⏲️ 6 Minute English">
-  </picture>
-</a>
-<a href="https://www.youtube.com/watch?v=sv9DItmJvlI">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://ytcards.demolab.com/?id=sv9DItmJvlI&title=How+do+climate+scientists+make+predictions%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1786013419&background_color=%231f2335&title_color=%23e6edf3&stats_color=%23a6adc8&max_title_lines=2&width=250&border_radius=5&duration=376">
-    <img src="https://ytcards.demolab.com/?id=sv9DItmJvlI&title=How+do+climate+scientists+make+predictions%3F+%E2%8F%B2%EF%B8%8F+6+Minute+English&lang=en&timestamp=1786013419&background_color=%23f6f8fa&title_color=%2324292f&stats_color=%2357606a&max_title_lines=2&width=250&border_radius=5&duration=376" alt="How do climate scientists make predictions? ⏲️ 6 Minute English" title="How do climate scientists make predictions? ⏲️ 6 Minute English">
   </picture>
 </a>
 <!-- END YOUTUBE-CARDS -->
