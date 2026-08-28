@@ -40,6 +40,10 @@
 </p>
 <!-- YOUPASS_BADGES:END -->
 
+<!-- OPENQUIZ_STATS:START -->
+Mastered: 94 words | Cultivation: Luyện Khí
+<!-- OPENQUIZ_STATS:END -->
+
 <!-- YOUPASS:START -->
 ```text
 📋 Recent Activity
