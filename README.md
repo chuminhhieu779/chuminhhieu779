@@ -38,7 +38,7 @@
 <!-- YOUPASS_BADGES:END -->
 
 <!-- OPENQUIZ_STATS:START -->
-Mastered: 94 words | Ranking: Luyện Khí
+Mastered: 94 words
 <!-- OPENQUIZ_STATS:END -->
 
 <!-- YOUPASS:START -->
