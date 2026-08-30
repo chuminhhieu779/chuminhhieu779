@@ -81,11 +81,11 @@ Date       Topic          Article                                               
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.8.27    Hearing         What causes hearing loss?                              23 words
+26.8.30    Smell           How are smell adjectives different?                    11 words
+
+26.8.30    Hearing         What causes hearing loss?                              23 words
 
 26.8.25    Dancing        Dancing for the brain                                   13 words
-
-26.8.25    Smartphone     Keeping kids off smartphones                             8 words
 ```
 <!-- DAILY_WATCHING:END -->
 
