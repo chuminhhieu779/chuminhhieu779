@@ -77,15 +77,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  25 days 🔥
+📺 Daily Watching  26 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.8.31    Climate Chan…  Can climate change affect our mental health              9 words
+
 26.8.30    Smell           How are smell adjectives different?                    11 words
 
 26.8.30    Hearing         What causes hearing loss?                              23 words
-
-26.8.25    Dancing        Dancing for the brain                                   13 words
 ```
 <!-- DAILY_WATCHING:END -->
 
