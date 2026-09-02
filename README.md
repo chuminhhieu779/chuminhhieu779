@@ -174,14 +174,3 @@ PHP                      1 repo              ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 <!--END_SECTION:waka-->
 
-<div align="center">
-    
-<a href="https://github.com/Suzune705">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=midori-suzune&theme=github-compact&custom_title=Suzune705%27s%20Contribution%20Graph&hide_border=true"
-    width="90%"
-  >
-</a>
-
-
-</div>
