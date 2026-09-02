@@ -77,15 +77,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  26 days 🔥
+📺 Daily Watching  27 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
-26.8.31    Climate Chan…  Can climate change affect our mental health              9 words
+26.9.2     Sleeping       Why you need a good night's sleep                       11 words
 
-26.8.30    Smell           How are smell adjectives different?                    11 words
+26.9.2     Pets            Our love of pets                                        5 words
 
-26.8.30    Hearing         What causes hearing loss?                              23 words
+26.9.2     Loneliness      Fighting loneliness with soup                           6 words
 ```
 <!-- DAILY_WATCHING:END -->
 
