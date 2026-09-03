@@ -63,15 +63,15 @@ Date        Skill          Title                                           Score
 
 <!-- DAILY_READING:START -->
 ```text
-📰 Daily Reading  19 days 🔥
+📰 Daily Reading  20 days 🔥
 
 Date       Topic          Article                                                New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.9.3     Novel          transferred-to-another-world-and-became-a-teacher-C1     6 words
+
 26.8.27    General        Conservation Groups Sue Utah for Starving the Great…    38 words
 
 26.8.26    Soil           soil-as-a-public-good                                   29 words
-
-26.8.17    Articles       the-world-changes-when-society                          16 words
 ```
 <!-- DAILY_READING:END -->
 
