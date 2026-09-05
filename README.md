@@ -77,15 +77,15 @@ Date       Topic          Article                                               
 
 <!-- DAILY_WATCHING:START -->
 ```text
-📺 Daily Watching  27 days 🔥
+📺 Daily Watching  28 days 🔥
 
 Date       Topic          Title                                                  New Vocab
 ────────────────────────────────────────────────────────────────────────────────────────────────────
+26.9.5     Food           The future of food                                      13 words
+
 26.9.2     Sleeping       Why you need a good night's sleep                       11 words
 
 26.9.2     Pets            Our love of pets                                        5 words
-
-26.9.2     Loneliness      Fighting loneliness with soup                           6 words
 ```
 <!-- DAILY_WATCHING:END -->
 
