@@ -38,7 +38,7 @@
 <!-- YOUPASS_BADGES:END -->
 
 <!-- OPENQUIZ_STATS:START -->
-Mastered: 192 words
+Mastered: 189 words
 <!-- OPENQUIZ_STATS:END -->
 
 <!-- YOUPASS:START -->
